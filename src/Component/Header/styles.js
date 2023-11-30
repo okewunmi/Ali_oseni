@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div  `
+.bck-1{
+    background: #ffff;
+}
 display: flex;
 flex-direction: column;
 /*background: #fff;
@@ -292,7 +295,7 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 0;
+    padding: 2.3rem 0;
 
     &__head{
     font-family: Nunito Sans;
@@ -319,7 +322,7 @@ justify-content: space-between;
 
 }
 .box{
-    margin-top: 3rem;
+    margin-top: 1.6rem;
     padding: 1rem;
     background: #EEEEEE;
     display: flex;

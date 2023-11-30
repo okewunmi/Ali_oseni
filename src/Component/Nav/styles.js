@@ -14,8 +14,6 @@ padding-right: 40px;
 font-size: 16px;
 font-family: 'Nunito Sans', sans-serif;  
   
-
-
 .NavBar__link{
     display: flex;
     gap: 1.3rem;
@@ -26,14 +24,8 @@ font-family: 'Nunito Sans', sans-serif;
         &:focus, &:active{
            transform: scale(1.1);
            font-weight: 600;
-
-
-
-        }
-        
+        } 
     }
-
-   
 }
 .NavBar__btn{
     display: flex;
