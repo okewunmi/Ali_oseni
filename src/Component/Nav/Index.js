@@ -10,8 +10,8 @@ const Index = () => {
             <div className='NavBar__link' >
                 <Link className='links' href="#">Contact Me</Link>
                 <Link className='links' href="#">Projects</Link>
-                <Link className='links' href="#">Process</Link>
-                <Link className='links' href="#">About Me</Link> 
+                <Link className='links' href="/process">Process</Link>
+                <Link className='links' href="/about">About Me</Link> 
             </div>
             <div>
                 <div className='NavBar__btn'>
