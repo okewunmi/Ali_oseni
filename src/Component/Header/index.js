@@ -202,7 +202,7 @@ const Index = () => {
                     
                     
                 </div>
-                <Link className='links' href='#'><h3>View More</h3></Link>
+                <Link className='links' href='/project'><h3>View More</h3></Link>
                 
             </div>
             <div className='header__exp'>

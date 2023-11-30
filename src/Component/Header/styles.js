@@ -322,7 +322,7 @@ justify-content: space-between;
 
 }
 .box{
-    margin-top: 1.6rem;
+    margin-top: 1.3rem;
     padding: 1rem;
     background: #EEEEEE;
     display: flex;

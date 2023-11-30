@@ -112,7 +112,7 @@ const Index = () => {
                     </div></Link> 
                       
                 </div>
-                <Link className='links' href='#'><h3>View More</h3></Link>
+               
                 </div>
 
                 <div class=" header__ux ">
@@ -136,9 +136,26 @@ const Index = () => {
                         <p className='txt'>The Pitch-deck Design</p>
                     </div></Link> 
                 </div>
-                <Link className='links' href='#'><h3>View More</h3></Link>
+                <div className='container  !pb-28'>
+                   <Link href='#'><div className='box'>
+                        <Image src='/llc.png' className='img' width={450} height={250} alt='img' />
+                        <p className='title'>Stackwalker LLC</p>
+                        <p className='txt'>The Brand Identity Designn</p>
+                    </div></Link>
+                   <Link href='#'><div className='box'>
+                        <Image src='/pcmc.png' className='img' width={450} height={250} alt='img' />
+                        <p className='title'>PCPMC </p>
+                        <p className='txt'>The Brand Identity Designn</p>
+                    </div></Link>
+                   <Link href='#'><div className='box'>
+                        <Image src='/kita.png' className='img' width={450} height={250} alt='img'/>
+                        <p className='title'>Kita Folk </p>
+                        <p className='txt'>The Brand Identity Designn</p>
+                    </div></Link> 
                 </div>
-           
+  
+                </div>
+    <Footer/>
     </Wrapper>
   )
 }

@@ -20,10 +20,10 @@ const Index = () => {
                 </div>
                 <div className='footer__link'>
                     <h3 className='footer__link-head'>Dope UX</h3>
-                    <Link href='#' >Project</Link>
-                    <Link href='#' >Process</Link>
-                    <Link href='#' >About Us</Link>
-                    <Link href='#' >Contact Us</Link>
+                    <Link href='/project' >Project</Link>
+                    <Link href='/process' >Process</Link>
+                    <Link href='/about' >About Us</Link>
+                    <Link href='/contact' >Contact Us</Link>
                 </div>
                 <div className='footer__box'>
                 <h3 className='footer__link-head'>Dope UX</h3>
