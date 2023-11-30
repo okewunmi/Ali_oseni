@@ -22,8 +22,11 @@ font-family: 'Nunito Sans', sans-serif;
     
     .links{
         transition: all .3s;
-        &:hover, &:focus{
+
+        &:focus, &:active{
            transform: scale(1.1);
+           font-weight: 600;
+
 
 
         }

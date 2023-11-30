@@ -71,7 +71,7 @@ color: black;
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
-  line-height: 27px;
+  /* line-height: 27px; */
   padding-bottom: 1rem;
 
 }
