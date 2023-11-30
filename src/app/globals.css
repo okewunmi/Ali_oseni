@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+/* styles.css */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;  
+  font-family: 'Abril Fatface', 'Inter', 'Nunito Sans', sans-serif;
+}
+/* font-family: 'Abril Fatface', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
