@@ -197,10 +197,7 @@ const Index = () => {
                         <Image src='/ux-prj-6.png' className='img' width={450} height={250} alt='img'/>
                         <p className='title'>Farmhub360</p>
                         <p className='txt'>The Pitch-deck Design</p>
-                    </div></Link>
-                    
-                    
-                    
+                    </div></Link> 
                 </div>
                 <Link className='links' href='/project'><h3>View More</h3></Link>
                 

@@ -36,7 +36,7 @@ const Index = () => {
             <h1 className='header__ux__head '>Latest Project </h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
                 <div className='container '>
-                    <Link href='#'><div className='box !bg-white'>
+                    <Link href='/project/Nester'><div className='box !bg-white'>
                         <Image src='/ux-prj-1.png' className='img' width={450} height={250} alt='img' />
                         <p className='title'>Nester Verify</p>
                         <p className='txt'>Website · UI/UX Design</p>
