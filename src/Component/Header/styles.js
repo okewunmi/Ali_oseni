@@ -6,10 +6,7 @@ export const Wrapper = styled.div  `
 }
 display: flex;
 flex-direction: column;
-/*background: #fff;
-color: #000;
-max-height: 80vh;
-justify-content: space-between; */
+
 
 .header{
 display: flex;
@@ -230,7 +227,7 @@ justify-content: space-between;
     .box__1{
             background:#EEEEEE;
         }
-        .box__2{
+    .box__2{
             background:#EBF4F6;
         }
        
@@ -351,11 +348,11 @@ justify-content: space-between;
 .links{
     padding-top: 3rem;
     font-family: Nunito Sans;
-font-size: 20px;
-font-weight: 700;
-line-height: 32px;
-transition: all .3s;
- 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all .3s;
+    
 &:hover{
     transform: scale(1.1) ;
     color:#666666;
@@ -375,7 +372,7 @@ transition: all .3s;
 
     &__box{
         margin: 4rem 0;
-        background: white ;
+        background: #ffff;
         width: 60%;
         border-radius: .8rem;
        
@@ -388,6 +385,8 @@ transition: all .3s;
             justify-content: space-between;
             gap: 1rem;
 
+
+            
             .head{
                 font-family: Nunito Sans;
                 font-size: 20px;
@@ -397,6 +396,10 @@ transition: all .3s;
                 width: 33%;
 
             }
+            .border{
+                border-bottom: 1px solid #E5E7EB; 
+            }
+
             .content{
                 display: flex;
                 flex-direction: column;

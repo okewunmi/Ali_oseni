@@ -99,5 +99,54 @@ padding-bottom: 2rem;
         border-bottom:1px solid #0000;
     }
 }
+.btn--box{
+    border-top: 1px solid #868686;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    .btn-color{
+        background: #000B1D;
+        color: #ffff;
+        span{
+            padding-left: 1rem;
+            border-left: 1px solid #ffff;
+            margin-left: .7rem;
+        }
+        .icon{
+            font-size: 2rem;
+        }
+        
+        
+    }
+    .btn-white{
+        color: #000B1D;
+        border: 3px solid #1C2540;
+        justify-content: center;
+
+        &:hover{
+            background: #000B1D;
+            color: #ffff;
+            border: none;
+        }
+         
+    }
+
+    .btn{
+        display: flex;
+        align-items: center;
+       
+        outline: none;
+        width: 17rem;
+        padding: 1.2rem ;
+
+        
+        &:hover{
+          
+            
+        }
+    }
+}
 
 `

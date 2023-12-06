@@ -1,24 +1,24 @@
 "use client"
 import React from 'react';
 
-import { Wrapper } from '../about/styles';
+import { Wrapper } from '../../app/about/styles';
 import '../globals.css'
-
 import Image from 'next/image';
 import Link from 'next/link';
-import { IoPersonCircle } from "react-icons/io5";
-import { IoIosMail } from "react-icons/io";
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaDribbble  } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
-import { GrSchedules } from "react-icons/gr";
 
+// import { useTheme } from '../../app/ThemeContext';
 import Nav from '../../Component/Nav/Index';
 
 const Index = () => {
+  // const {darkMode} =useTheme();
+
     return (
         <Wrapper>
         <Nav/>
-        <section className="timeline">
+        {/* <section style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}> */}
+        <section >
             <div className="title-wrapper">
               <h3 className="h3">Design Process</h3>
             </div>

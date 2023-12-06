@@ -4,10 +4,13 @@ import Image from 'next/image';
 import React from 'react';
 import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
 
+
 const Index = () => {
+   
     return (
-        <Wrapper>
-            <div className='footer'>
+        <Wrapper >
+            {/* <div className='footer' style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}> */}
+            <div className='footer' >
                 <div className='footer__box' >
                     <Image src='/logo.png' className='footer__logo' alt='footer-logo' width={35} height={35} />
                     <p className='footer__txt'>Contact Us for your premium design and we will help you prototype and design beautiful, creative and modern websites.</p>

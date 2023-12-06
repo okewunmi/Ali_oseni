@@ -1,16 +1,20 @@
 "use client"
 import React from 'react';
 import { Wrapper } from '../../../Component/Header/styles';
-import {Content} from './styles'
+import {Content} from '../Kita/styles'
 import Nav from '../../../Component/Nav/Index'
 import Link from 'next/link';
 import Image from 'next/image';
 import {Fade} from 'react-swift-reveal'
+import { FaBehance } from "react-icons/fa";
+import { useTheme } from '../../ThemeContext';
+
 
 const Index = () => {
+    const {darkMode} =useTheme()
     return (
-        <Fade duration={1000} distance='30px' delay={500} >
-        <Wrapper>
+        <Fade duration={500} distance='30px' delay={500} >
+        <Wrapper style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}>
             <Nav/>
             <div className='header__ux my-16 !bg-gray-200'>
             <h1 className='header__ux__head '>Latest Project </h1>
@@ -49,11 +53,11 @@ const Index = () => {
                     
                 </div>
                 <div className='image'>
-                    <Image src='/nexter.png' alt='img' width={740} height={992} />
+                    <Image src='/farmhub.png' alt='img' width={740} height={992} />
                 </div>
                 <article className='cont'>
-                    <h1>Kita Folk</h1>
-                    <p>I am a passionate and dedicated product designer with a keen eye for detail and the ability to craft extraordinary user experiences. With years of experience in the industry, I have honed my skills to create designs that meet client's needs and exceed their expectations.</p>
+                    <h1>Farmhub360</h1>
+                    <p>Farmhub360 is an e-commerce marketplace platform where buying and selling of farm produce take place, such as crops, livestock, food processes, seafoods, vegetables, buying farm machines and exportation of agro commodities</p>
                     <div className='line'></div>
                 </article>
                 <article className='cont'>
@@ -76,11 +80,22 @@ const Index = () => {
                 <article className='cont'>
                     <h2>Position </h2>
                     <div className='box'>
-                        <p>Main designer</p>
+                        <p></p>
                     </div>
                     
                 </article>
-                <div className='line-2'></div>
+                <section className='btn--box'>
+                    <Link href='#' className='btn btn-color'>
+                    <FaBehance className='icon' />
+                    <span>Case Study</span> 
+                    </Link>
+                    <Link href='#' className='btn btn-white'>
+                        <p>   Open Project</p>
+                
+                    </Link>
+
+                </section>
+
             </Content>
         </Wrapper>
         </Fade>
