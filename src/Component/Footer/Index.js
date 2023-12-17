@@ -3,14 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
+import { ThemeProvider, useTheme } from '../../app/ThemeContext';
 
 
 const Index = () => {
-   
+   const {darkMode} =useTheme()
     return (
+        <ThemeProvider>
         <Wrapper >
-            {/* <div className='footer' style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}> */}
             <div className='footer' >
+            {/* <div className='footer' > */}
                 <div className='footer__box' >
                     <Image src='/logo.png' className='footer__logo' alt='footer-logo' width={35} height={35} />
                     <p className='footer__txt'>Contact Us for your premium design and we will help you prototype and design beautiful, creative and modern websites.</p>
@@ -39,10 +41,11 @@ const Index = () => {
                 </div>
             </div>
             <p className='footer__copyRight'>Copyright © Dope UX 2019-2023. All rights reserved.</p>
-           <div className='footer__white'>
+           <div className='footer__white' style={{background:darkMode? "#031529":"#ffff"}}>
 
            </div>
         </Wrapper>
+        </ThemeProvider>
     );
 }
 

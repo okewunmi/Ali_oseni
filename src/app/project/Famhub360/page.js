@@ -11,7 +11,7 @@ import { useTheme } from '../../ThemeContext';
 
 
 const Index = () => {
-    const {darkMode} =useTheme()
+    const {darkMode} = useTheme()
     return (
         <Fade duration={500} distance='30px' delay={500} >
         <Wrapper style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}>

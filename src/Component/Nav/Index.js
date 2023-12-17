@@ -6,11 +6,11 @@ import { LuSunMoon } from "react-icons/lu";
 import { useTheme } from '../../app/ThemeContext';
 
 const Index = () => {
-    // const {toggleDarkMode, darkMode} = useTheme(undefined);
+     const {toggleDarkMode, darkMode} = useTheme();
    
     return (
         // <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}>
-         <NavBar >  
+         <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
                 <Link className='links' href="/project">Projects</Link>
@@ -20,8 +20,8 @@ const Index = () => {
             <div>
                 <div className='NavBar__btn'>
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
-                {/* <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton> */}
-                <buton className='btn' > <WiMoonAltFirstQuarter/> </buton>
+                <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
+                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>
         </NavBar>

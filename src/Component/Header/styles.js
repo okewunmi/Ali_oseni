@@ -372,20 +372,16 @@ justify-content: space-between;
 
     &__box{
         margin: 4rem 0;
-        background: #ffff;
         width: 60%;
-        border-radius: .8rem;
+        border-radius: 1rem;
        
-
         .container{
             padding: 3rem 1.5rem;
-            border-bottom: 1px solid #E5E7EB;
+            border-bottom: 1px solid #EBF4F6;
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
-
-
             
             .head{
                 font-family: Nunito Sans;

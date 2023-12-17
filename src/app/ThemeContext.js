@@ -1,7 +1,11 @@
   
 import React, { createContext, useContext, useState } from 'react';
 
-const ThemeContext = createContext();
+const ThemeContext = createContext({
+  // darkMode: false,
+  toggleDarkMode: ()=>{}
+});
+export const useTheme = () => useContext(ThemeContext)
 
 export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,6 +21,4 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
-export const useTheme = () => {
-  return useContext(ThemeContext);
-};
+

@@ -2,17 +2,18 @@
 import React from 'react';
 import Footer from '../../Component/Footer/Index';
 import Nav from "../../Component/Nav/Index"
-import {  Wrapper} from "../../Component/Header/styles";
+import {Wrapper} from "../../Component/Header/styles";
 import Link from 'next/link';
 import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
 import Image from 'next/image';
 import {Bounce} from 'react-swift-reveal'
-import { useTheme } from '../../app/ThemeContext';
+import { ThemeProvider, useTheme } from '../ThemeContext';
 
 const Index = () => {
-    // const {darkMode} = useTheme();
-  return (
+    const {darkMode} = useTheme();
     
+  return (
+    <ThemeProvider>
     <Wrapper >
       <Nav/>
       <div className='header'  >
@@ -63,7 +64,7 @@ const Index = () => {
                 </div>
                 </div>
 
-                <div class=" header__ux ">
+                <div className=" header__ux ">
                 <h1 className='header__ux__head'>UI/UX Design Projects</h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
                 <div className='container'>
@@ -123,7 +124,7 @@ const Index = () => {
                
                 </div>
 
-                <div class=" header__ux ">
+                <div className=" header__ux ">
 
                 <h1 className='header__ux__head'>Brand Identity Projects</h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
@@ -165,6 +166,7 @@ const Index = () => {
                 </div>
     <Footer/>
     </Wrapper>
+    </ThemeProvider>
   )
 }
 

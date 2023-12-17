@@ -1,14 +1,30 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div `
+background: radial-gradient(50% 50% at 50% 50%, #00FFFF 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #1E90FF 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #32CD32 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #800080 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #FF4500 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #FF69B4 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(50% 50% at 50% 50%, #FFFF00 0%, rgba(0, 0, 0, 0) 50%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+
 
 color: black;
 
+.dark{
+  background-color: #020A13;
+  color: white;
+}
+.white{
+  background: white;
 
+}
 
 .timeline {
  padding: 2rem 15rem;
- /* text-align: justify; */
+ text-align: justify;
 
  h3{
   padding-left:1rem ;
@@ -19,7 +35,6 @@ color: black;
 
  }
   
- 
 
 }
 
@@ -71,8 +86,7 @@ color: black;
   font-family: Inter;
   font-size: 18px;
   font-weight: 600;
-  /* line-height: 27px; */
-  padding-bottom: 1rem;
+  padding-bottom: .8rem;
 
 }
 
@@ -82,12 +96,33 @@ color: black;
   line-height: 1.6;
 }
 
+.timeline-item-dark::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  width: 2px;
+  height: calc(100% + 50px);
+  background: white;
+}
+
+.timeline-item-dark::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -34px;
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px black;
+}
 .timeline-item::before {
   content: "";
   position: absolute;
   /* top: -25px; */
   left: -30px;
-  width: 1px;
+  width: 2px;
   height: calc(100% + 50px);
   background: black;
 }
@@ -95,13 +130,13 @@ color: black;
 .timeline-item::after {
   content: "";
   position: absolute;
-  top: 4px;
-  left: -34px;
-  height: 10px;
-  width: 10px;
+  top: 3px;
+  left: -36px;
+  height: 15px;
+  width: 15px;
   background: white;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px black;
+  box-shadow: 0 0 0 3px black;
 }
 
 .timeline-text {

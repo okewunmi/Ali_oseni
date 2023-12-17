@@ -1,37 +1,56 @@
 "use client"
-import React from 'react';
-
-import { Wrapper } from '../../app/about/styles';
+import React, { useState } from 'react';
+import { Wrapper } from './styles';
+import { NavBar } from '@/Component/Nav/styles';
 import '../globals.css'
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaDribbble  } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
-
-// import { useTheme } from '../../app/ThemeContext';
-import Nav from '../../Component/Nav/Index';
+import { WiMoonAltFirstQuarter } from "react-icons/wi";
+import { ThemeProvider, useTheme } from '../ThemeContext';
+// import Nav from '../../Component/Nav/Index';
 
 const Index = () => {
-  // const {darkMode} =useTheme();
+
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode=() => {
+    setDarkMode((prev) => !prev);
+  };
 
     return (
-        <Wrapper>
-        <Nav/>
-        {/* <section style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}> */}
-        <section >
-            <div className="title-wrapper">
+     
+        <Wrapper >
+        <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
+            <div className='NavBar__link' >
+                <Link className='links' href="/contact">Contact Me</Link>
+                <Link className='links' href="/project">Projects</Link>
+                <Link className='links' href="/process">Process</Link>
+                <Link className='links' href="/about">About Me</Link> 
+            </div>
+            <div>
+                <div className='NavBar__btn'>
+                <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
+                <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
+                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
+                </div>
+            </div>
+        </NavBar>
+        
+        <section className={`timeline ${darkMode? "dark": 'white'}`} >
+        {/* <section className="timeline"  > */}
+            <div className="title-wrapper"  >
               <h3 className="h3">Design Process</h3>
             </div>
 
             <ol className="timeline-list">
-              <li className="timeline-item">
+              <li className={darkMode?'timeline-item-dark':"timeline-item"}>
                <h4 className="h4 timeline-item-title">
                 The UI/UX design process is a structured approach that UI/UX designers follow to create user-friendly and visually appealing interfaces. Here's a breakdown of the key steps and their explanations
                 </h4>
            
-                {/* <span>June, 2022</span> */}
-
-                {/* <p className="timeline-text">Greetings! I'm Oseni Ali, a passionate UI/UX designer dedicated to crafting seamless and engaging digital experiences. With a keen eye for aesthetics and a user-centric approach, I specialize in translating complex ideas into intuitive and visually appealing designs. My journey involves a blend of creative thinking, problem-solving, and staying at the forefront of design trends. Here's what defines me:</p> */}
+                
               </li>
               <li className="timeline-item">
               <div className='head'> 
@@ -196,6 +215,7 @@ const Index = () => {
 
             
         </Wrapper>
+     
     );
 }
 
