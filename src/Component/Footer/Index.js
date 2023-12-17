@@ -1,4 +1,4 @@
-import { Wrapper } from './styles';
+import { Content } from './styles';
 import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
@@ -10,7 +10,7 @@ const Index = () => {
    const {darkMode} =useTheme()
     return (
         <ThemeProvider>
-        <Wrapper >
+        <Content>
             <div className='footer' >
             {/* <div className='footer' > */}
                 <div className='footer__box' >
@@ -44,7 +44,7 @@ const Index = () => {
            <div className='footer__white' style={{background:darkMode? "#031529":"#ffff"}}>
 
            </div>
-        </Wrapper>
+        </Content>
         </ThemeProvider>
     );
 }
