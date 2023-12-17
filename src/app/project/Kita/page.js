@@ -55,7 +55,7 @@ const Index = () => {
                 </div>
                 <article className='cont'>
                     <h1>Kita Folk</h1>
-                    <p>I am a passionate and dedicated product designer with a keen eye for detail and the ability to craft extraordinary user experiences. With years of experience in the industry, I have honed my skills to create designs that meet client's needs and exceed their expectations.</p>
+                    <p>I am a passionate and dedicated product designer with a keen eye for detail and the ability to craft extraordinary user experiences. With years of experience in the industry, I have honed my skills to create designs that meet client&apos;s needs and exceed their expectations.</p>
                     <div className='line'></div>
                 </article>
                 <article className='cont'>

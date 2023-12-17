@@ -41,7 +41,7 @@ const Index = () => {
                 <div className='header__txt__box'  >
                <h1 style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#EBF4F6': "#020A13"}}>My Projects </h1>
                <p className='txt' style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#EBF4F6': "#020A13"}}>I am a passionate and dedicated product designer with a keen eye for detail and the ability to craft extraordinary user experiences.</p>
-               <p className='txt' style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#EBF4F6': "#020A13"}}>With years of experience in the industry, I have honed my skills to create designs that meet client's needs and exceed their expectations.</p>
+               <p className='txt' style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#EBF4F6': "#020A13"}}>With years of experience in the industry, I have honed my skills to create designs that meet client&apos;s needs and exceed their expectations.</p>
                <Bounce>
                <div className='icon'>
                 

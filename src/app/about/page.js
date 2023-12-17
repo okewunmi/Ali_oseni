@@ -52,7 +52,7 @@ const Index = () => {
 
                 {/* <span>June, 2022</span> */}
 
-                <p className="timeline-text">Greetings! I'm Oseni Ali, a passionate UI/UX designer dedicated to crafting seamless and engaging digital experiences. With a keen eye for aesthetics and a user-centric approach, I specialize in translating complex ideas into intuitive and visually appealing designs. My journey involves a blend of creative thinking, problem-solving, and staying at the forefront of design trends. Here's what defines me:</p>
+                <p className="timeline-text">Greetings! I&apos; m Oseni Ali, a passionate UI/UX designer dedicated to crafting seamless and engaging digital experiences. With a keen eye for aesthetics and a user-centric approach, I specialize in translating complex ideas into intuitive and visually appealing designs. My journey involves a blend of creative thinking, problem-solving, and staying at the forefront of design trends. Here&apos;s what defines me:</p>
               </li>
               <li className="timeline-item">
               <div className='head'> 
@@ -64,7 +64,7 @@ const Index = () => {
                 {/* <span>Feb, 2022</span> */}
 
                 <p className="timeline-text">
-                In my design approach, innovation is more than a buzzword – it's a commitment to pushing creative boundaries. I thrive on exploring new possibilities, crafting designs that not only meet the functional needs of users but go above and beyond, leaving a lasting impression and exceeding expectations.
+                In my design approach, innovation is more than a buzzword – it&apos;s a commitment to pushing creative boundaries. I thrive on exploring new possibilities, crafting designs that not only meet the functional needs of users but go above and beyond, leaving a lasting impression and exceeding expectations.
                 </p>
               </li>
 
@@ -94,7 +94,7 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Collaborative Spirit</h4>
                 </div>
                 <p className="timeline-text">
-                Design doesn't happen in isolation. I firmly believe in the power of collaboration. Working seamlessly with cross-functional teams is integral to my process. By fostering open communication and embracing diverse perspectives, I ensure that the design journey is not only smooth but also aligned with the overarching goals of the project.
+                Design doesn&apos;t happen in isolation. I firmly believe in the power of collaboration. Working seamlessly with cross-functional teams is integral to my process. By fostering open communication and embracing diverse perspectives, I ensure that the design journey is not only smooth but also aligned with the overarching goals of the project.
                 </p>
               </li>
               <li className="timeline-item">
@@ -102,7 +102,7 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Portfolio Highlights</h4>
                 </div>
                 <p className="timeline-text">
-                Explore my portfolio, and you'll discover a diverse tapestry of projects that showcase not just my technical skills but my versatility, attention to detail, and the ability to deliver designs with a profound impact. Each project is a testament to my dedication to excellence and my capacity to adapt to varied design challenges.
+                Explore my portfolio, and you&rsquo;ll discover a diverse tapestry of projects that showcase not just my technical skills but my versatility, attention to detail, and the ability to deliver designs with a profound impact. Each project is a testament to my dedication to excellence and my capacity to adapt to varied design challenges.
                 </p>
               </li>
               <li className="timeline-item">
@@ -110,12 +110,10 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Portfolio Highlights</h4>
                 </div>
                
-
-
                 {/* <span>Feb, 2022</span> */}
 
                 <p className="timeline-text">
-                Explore my portfolio, and you'll discover a diverse tapestry of projects that showcase not just my technical skills but my versatility, attention to detail, and the ability to deliver designs with a profound impact. Each project is a testament to my dedication to excellence and my capacity to adapt to varied design challenges.
+                Explore my portfolio, and you&apos;ll discover a diverse tapestry of projects that showcase not just my technical skills but my versatility, attention to detail, and the ability to deliver designs with a profound impact. Each project is a testament to my dedication to excellence and my capacity to adapt to varied design challenges.
                 </p>
               </li>
             </ol>
@@ -127,7 +125,7 @@ const Index = () => {
                 Dont Make Me Think
                 </h4>
               
-                <p className="timeline-text">By Steve Krug is a seminal guide to web usability. In this succinct and witty exploration, Krug emphasizes simplicity in web design, arguing that a user's interaction with a website should be intuitive and require minimal cognitive effort. He delves into the principles of navigation, clarity, and the elimination of unnecessary complexities. Krug's mantra, "Don't make me think," encapsulates the user's desire for a seamless, instinctive online experience. Through real-world examples and practical advice, the book serves as a foundational resource for designers, urging them to prioritize user-centric design and create interfaces that effortlessly guide users through their digital journey.</p>
+                <p className="timeline-text">By Steve Krug is a seminal guide to web usability. In this succinct and witty exploration, Krug emphasizes simplicity in web design, arguing that a user&apos;s interaction with a website should be intuitive and require minimal cognitive effort. He delves into the principles of navigation, clarity, and the elimination of unnecessary complexities. Krug&apos;s mantra, &ldquo;Don&apos;t make me think,&ldquo; encapsulates the user&apos;s desire for a seamless, instinctive online experience. Through real-world examples and practical advice, the book serves as a foundational resource for designers, urging them to prioritize user-centric design and create interfaces that effortlessly guide users through their digital journey.</p>
               </li>
               <li className="timeline-item">
               <div className='head'> 
@@ -144,7 +142,7 @@ const Index = () => {
                 <h4 className="h4 timeline-item-title">
                 Designing for Emotion
                 </h4>
-                <p className="timeline-text">Emphasizes the profound impact emotional design has on user engagement. Recognizing that user experiences are inherently emotional, the book guides designers in creating products that resonate with users on a deeper level. Aarron Walter explores how empathy, storytelling, and thoughtful interactions foster connections. By understanding users' emotional states, designers can craft interfaces that delight and build lasting relationships. Walter's insights underscore the pivotal role of emotions in user experience, urging designers to go beyond functionality and infuse designs with empathy, ultimately creating memorable and meaningful interactions for users.</p>
+                <p className="timeline-text">Emphasizes the profound impact emotional design has on user engagement. Recognizing that user experiences are inherently emotional, the book guides designers in creating products that resonate with users on a deeper level. Aarron Walter explores how empathy, storytelling, and thoughtful interactions foster connections. By understanding users&apos; emotional states, designers can craft interfaces that delight and build lasting relationships. Walter&apos;s insights underscore the pivotal role of emotions in user experience, urging designers to go beyond functionality and infuse designs with empathy, ultimately creating memorable and meaningful interactions for users.</p>
               </li>
 
             </ol>
@@ -163,7 +161,7 @@ const Index = () => {
                 </div>
                 
               
-                <p className="timeline-text">I invite you to join me on a journey where creativity seamlessly meets functionality. Your vision is the compass, and my expertise is the map. Together, let's transcend the ordinary and create something extraordinary that not only meets objectives but elevates the user experience to new heights.</p>
+                <p className="timeline-text">I invite you to join me on a journey where creativity seamlessly meets functionality. Your vision is the compass, and my expertise is the map. Together, let&apos;s transcend the ordinary and create something extraordinary that not only meets objectives but elevates the user experience to new heights.</p>
               </li>
              
             </ol>

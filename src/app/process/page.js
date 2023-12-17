@@ -47,7 +47,7 @@ const Index = () => {
             <ol className="timeline-list">
               <li className={darkMode?'timeline-item-dark':"timeline-item"}>
                <h4 className="h4 timeline-item-title">
-                The UI/UX design process is a structured approach that UI/UX designers follow to create user-friendly and visually appealing interfaces. Here's a breakdown of the key steps and their explanations
+                The UI/UX design process is a structured approach that UI/UX designers follow to create user-friendly and visually appealing interfaces. Here &apos;s a breakdown of the key steps and their explanations
                 </h4>
            
                 
@@ -102,7 +102,7 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Usability Testing</h4>
                 </div>
                 <p className="timeline-text">
-                Conduct user testing to evaluate the design's effectiveness, identify pain points, and gather feedback for improvements.
+                Conduct user testing to evaluate the design&apos;s effectiveness, identify pain points, and gather feedback for improvements.
                 </p>
               </li>
               <li className="timeline-item">
@@ -110,7 +110,7 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Interaction Design</h4>
                 </div>
                 <p className="timeline-text">
-                Conduct user testing to evaluate the design's effectiveness, identify pain points, and gather feedback for improvements.
+                Conduct user testing to evaluate the design&apos;s effectiveness, identify pain points, and gather feedback for improvements.
                 </p>
               </li>
               <li className="timeline-item">
@@ -182,7 +182,7 @@ const Index = () => {
               <h4 className="h4 timeline-item-title">Post-Launch Analysis:</h4>
                 </div>
                 <p className="timeline-text">
-                Evaluate the design's success based on predefined metrics and key performance indicators. Identify areas for improvement in future iterations.
+                Evaluate the design&apos;s success based on predefined metrics and key performance indicators. Identify areas for improvement in future iterations.
                 </p>
               </li>
               <li className="timeline-item">
