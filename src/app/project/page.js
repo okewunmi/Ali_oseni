@@ -9,6 +9,7 @@ import {Bounce, Fade} from 'react-swift-reveal'
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { Content } from '@/Component/Footer/styles';
 
+
 const Index = () => {
     const [darkMode, setDarkMode] = useState(false);
    
@@ -159,7 +160,7 @@ const Index = () => {
                         <p className='title'>Findworker </p>
                         <p className='txt'>The Pitch-deck Design</p>
                     </div></Link>
-                   <Link href='#'><div className='box'>
+                   <Link href='/project/Farmhub360-pitch'><div className='box'>
                         <Image src='/ux-prj-6.png' className='img' width={450} height={250} alt='img'/>
                         <p className='title'>Farmhub360</p>
                         <p className='txt'>The Pitch-deck Design</p>
