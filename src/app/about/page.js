@@ -8,6 +8,7 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaDribbble
 import { BsArrowRight } from "react-icons/bs";
 import { GrSchedules } from "react-icons/gr";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
+import {  Fade} from 'react-swift-reveal';
 
 
 const Index = () => {
@@ -17,7 +18,7 @@ const Index = () => {
     setDarkMode((prev) => !prev);
   };
     return (
-
+<Fade duration={500} distance='30px' delay={500} >
         <Wrapper>
         <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
@@ -184,7 +185,7 @@ const Index = () => {
 
             
         </Wrapper>
-        
+        </Fade>
     );
 }
 

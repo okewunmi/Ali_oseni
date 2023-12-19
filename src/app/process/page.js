@@ -20,7 +20,7 @@ const Index = () => {
   };
 
     return (
-     
+      <Fade duration={500} distance='30px' delay={500} >
         <Wrapper >
         <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
@@ -215,6 +215,7 @@ const Index = () => {
 
             
         </Wrapper>
+        </Fade>
      
     );
 }

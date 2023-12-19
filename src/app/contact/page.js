@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
 import { Content } from '@/Component/Footer/styles';
 import Image from 'next/image';
+import { Fade } from 'react-swift-reveal/index';
 
 const Page = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +20,7 @@ const Page = () => {
   };
 
     return (
-    
+        <Fade duration={500} distance='30px' delay={500} >
         <Wrapper style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
             <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
@@ -105,6 +106,7 @@ const Page = () => {
         </Content>
             
         </Wrapper>
+        </Fade>
       
     );
 }
