@@ -10,7 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { ThemeProvider, useTheme } from '../ThemeContext';
 // import Nav from '../../Component/Nav/Index';
-
+import { Fade } from 'react-swift-reveal';
 const Index = () => {
 
   const [darkMode, setDarkMode] = useState(false);

@@ -10,7 +10,7 @@ import Link from 'next/link';
 import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
 import { Content } from '@/Component/Footer/styles';
 import Image from 'next/image';
-import { Fade } from 'react-swift-reveal/index';
+import { Fade } from 'react-swift-reveal';
 
 const Page = () => {
     const [darkMode, setDarkMode] = useState(false);
