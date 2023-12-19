@@ -23,7 +23,7 @@ padding-bottom: 2rem;
     width: 100%;
 
     .link{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 25px;
         font-weight: 700;
         line-height: 59px;
@@ -57,7 +57,7 @@ padding-bottom: 2rem;
         padding-left:1rem ;
 
         p{
-            font-family: Inter;
+            font-family: var(--font-inter), sans-serif;
             font-size: 20px;
             font-weight: 400;
             line-height: 32px;
@@ -66,20 +66,20 @@ padding-bottom: 2rem;
     }
 
     h1{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 49px;
         color: #1C2540;
     }
     h2{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 33px;
     }
     p{
-        font-family: Inter;
+        font-family: var(--font-inter), sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 32px;

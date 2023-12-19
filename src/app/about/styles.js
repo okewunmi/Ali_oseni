@@ -12,7 +12,7 @@ color: black;
 
  h3{
   padding-left:1rem ;
-  font-family: Nunito Sans;
+  font-family: var(--font-nunito-Sans), sans-serif;
   font-size: 47px;
   font-weight: 900;
   line-height: 59px;
@@ -37,7 +37,7 @@ color: black;
 
 .timeline-item {
   position: relative;
-  font-family: Inter;
+  font-family: var(--font-inter), sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
@@ -49,7 +49,7 @@ color: black;
 
     .link{
       border-bottom:1px solid black ;
-      font-family: Inter;
+      font-family: var(--font-inter), sans-serif;
       font-size: 15px;
       font-weight: 600;
       line-height: 22px;
@@ -68,7 +68,7 @@ color: black;
 }
 
 .timeline-item-title {
-  font-family: Inter;
+  font-family: var(--font-inter), sans-serif;
   font-size: 18px;
   font-weight: 600;
   /* line-height: 27px; */
@@ -105,7 +105,7 @@ color: black;
 }
 
 .timeline-text {
-  font-family: Inter;
+  font-family: var(--font-inter), sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -113,7 +113,7 @@ color: black;
 
 }
 .sub{
-  font-family: Inter;
+  font-family: var(--font-inter), sans-serif;
   font-size: 19px;
   font-weight: 600;
   line-height: 23px;
@@ -144,7 +144,7 @@ color: black;
     align-items: center;
 
     p{
-      font-family: Inter;
+      font-family: var(--font-inter), sans-serif;
       font-size: 16px;
       font-weight: 400;
       line-height: 21px;

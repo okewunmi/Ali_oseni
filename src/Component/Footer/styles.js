@@ -27,7 +27,7 @@ align-items:center;
             gap:.5rem;
 
             label{
-                font-family: Nunito Sans;
+                font-family: var(--font-nunito-Sans), sans-serif;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 21px;
@@ -55,7 +55,7 @@ align-items:center;
         }
     }
     &__txt{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
@@ -87,7 +87,7 @@ align-items:center;
         gap:.7rem;
 
         &-head{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 18px;
             font-weight: 600;
             line-height: 24px;
@@ -96,7 +96,7 @@ align-items:center;
 
         }
         Link{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 16px;
             font-weight: 400;
             line-height: 26px;
@@ -106,7 +106,7 @@ align-items:center;
     }
     &__copyRight{
         padding:5rem 0 2rem 0;
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 22px;

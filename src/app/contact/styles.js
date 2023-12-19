@@ -24,7 +24,7 @@ justify-content: space-between;
      gap:2rem;
  
      label{
-         font-family: Nunito Sans;
+         font-family: var(--font-nunito-Sans), sans-serif;
          font-size: 16px;
          font-weight: 600;
          line-height: 24px;
@@ -85,7 +85,7 @@ justify-content: space-between;
      box-shadow: 0px 1px 1px 0px #171F3813;
      box-shadow: 0px 1px 0px 1px #FFFFFF26 inset;
      border-radius:2rem;
-     font-family: Nunito Sans;
+     font-family: var(--font-nunito-Sans), sans-serif;
      font-size: 16px;
      font-weight: 600;
      transition: all .3s;

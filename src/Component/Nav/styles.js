@@ -12,7 +12,7 @@ align-items: center;
 padding-left: 278px; 
 padding-right: 40px;
 font-size: 16px;
-font-family: 'Nunito Sans', sans-serif;  
+font-family: var(--font-nunito-Sans), sans-serif;  
 
   
 .NavBar__link{

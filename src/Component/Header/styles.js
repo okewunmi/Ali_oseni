@@ -37,11 +37,9 @@ justify-content: space-between;
     }
 
     .txt{
-    // word-spacing: 1px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.9rem;
-    /* word-spacing: 1px; */
     color: #1C2540;
     font-family: var(--font-inter), sans-serif;
     }
@@ -73,7 +71,7 @@ justify-content: space-between;
         z-index: 1;     
     }
 .links{
-    cursor: pointer;
+    cursor: povar(--font-inter);
     transition: all .3s;
 
     &:hover{
@@ -114,7 +112,7 @@ justify-content: space-between;
         padding-top:2rem ;
     }
     .heading{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 24px;
         font-weight: 600;
         line-height: 31px;
@@ -128,7 +126,7 @@ justify-content: space-between;
         padding-top: 5rem;
     }
     .txt__1{
-        font-family: 'Nunito Sans' sans-serif;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 600;
         line-height: 32px;
@@ -136,7 +134,7 @@ justify-content: space-between;
     }
     .txt__2{
         margin-bottom: 2rem;
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
@@ -146,7 +144,7 @@ justify-content: space-between;
 
     }
     .txt__3{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 300;
         line-height: 26px;
@@ -165,7 +163,7 @@ justify-content: space-between;
     gap: 1.3rem;
 
    &__head{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 31px;
     font-weight: 700;
     line-height: 38px;
@@ -175,7 +173,7 @@ justify-content: space-between;
 
    }
    &__txt{
-    font-family: Inter;
+    font-family: var(--font-inter);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -188,20 +186,20 @@ justify-content: space-between;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     place-items: center;
-    gap: 1rem;
+    gap: 1.2rem;
 
     &--container{
         padding: 1.5rem;
         max-width: 20rem;
-        height: 15rem;
+        height: 17rem;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
 
        
 
         h3{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 16px;
             font-weight: 600;
             line-height: 19px;
@@ -211,7 +209,7 @@ justify-content: space-between;
 
         }
         p{
-            font-family: Inter;
+            font-family: var(--font-inter);
             font-size: 13px;
             font-weight: 400;
             line-height: 20px;
@@ -242,7 +240,7 @@ justify-content: space-between;
     background:#EBF4F6; 
 
    &__head{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 56px;
     font-weight: 600;
     line-height: 73px;
@@ -250,7 +248,7 @@ justify-content: space-between;
 
    }
    &__txt{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
@@ -270,7 +268,7 @@ justify-content: space-between;
         
 
         h3{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 28px;
             font-weight: 600;
             line-height: 36px;
@@ -279,7 +277,7 @@ justify-content: space-between;
         }
     }
     p{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 21px;
@@ -295,7 +293,7 @@ justify-content: space-between;
     padding: 2.3rem 0;
 
     &__head{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 56px;
     font-weight: 600;
     line-height: 73px;
@@ -303,7 +301,7 @@ justify-content: space-between;
 
    }
    &__txt{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
@@ -329,7 +327,7 @@ justify-content: space-between;
   
 }
 .title{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 16px;
     font-weight: 200;
     line-height: 19px;
@@ -338,7 +336,7 @@ justify-content: space-between;
 
 }
 .txt{
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 19px;
@@ -347,7 +345,7 @@ justify-content: space-between;
 }
 .links{
     padding-top: 3rem;
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 32px;
@@ -384,7 +382,7 @@ justify-content: space-between;
             gap: 1rem;
             
             .head{
-                font-family: Nunito Sans;
+                font-family: var(--font-nunito-Sans), sans-serif;
                 font-size: 20px;
                 font-weight: 600;
                 line-height: 26px;
@@ -405,13 +403,13 @@ justify-content: space-between;
                  
 
                 &-head{
-                    font-family: Nunito Sans;
+                    font-family: var(--font-nunito-Sans), sans-serif;
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 26px;
                 }
                 &-txt{
-                    font-family: Nunito Sans;
+                    font-family: var(--font-nunito-Sans), sans-serif;
                     font-size: 16px;
                     font-weight: 300;
                     line-height: 26px;
@@ -429,7 +427,7 @@ justify-content: space-between;
                     border-radius: .5rem;
                     padding:  0.26rem 1rem;
                     color: #E5E7EB;
-                    font-family: Nunito Sans;
+                    font-family: var(--font-nunito-Sans), sans-serif;
                     font-size: 12px;
                     font-weight: 600;
                     line-height: 12px;
@@ -455,7 +453,7 @@ justify-content: space-between;
        
 
         .big{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 20px;
             font-weight: 600;
             line-height: 26px;
@@ -463,7 +461,7 @@ justify-content: space-between;
 
         }
         .text{
-            font-family: Nunito Sans;
+            font-family: var(--font-nunito-Sans), sans-serif;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
@@ -491,7 +489,7 @@ justify-content: space-between;
     gap:2rem;
 
     label{
-        font-family: Nunito Sans;
+        font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
@@ -552,7 +550,7 @@ justify-content: space-between;
     box-shadow: 0px 1px 1px 0px #171F3813;
     box-shadow: 0px 1px 0px 1px #FFFFFF26 inset;
     border-radius:2rem;
-    font-family: Nunito Sans;
+    font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 16px;
     font-weight: 600;
     transition: all .3s;
