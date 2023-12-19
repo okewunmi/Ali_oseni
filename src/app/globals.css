@@ -19,5 +19,5 @@
 body {
   padding: 0;
   margin: 0;  
-  font-family: 'Abril Fatface', 'Inter', 'Nunito Sans', sans-serif;
+  font-family: var(--font-nunito-Sans), var(--font-abril-Fatface), var(--font-inter), sans-serif;
 }

@@ -27,7 +27,7 @@ justify-content: space-between;
    
     h1{
         font-size: 3.1rem;
-        font-family: 'Nunito Sans', sans-serif; 
+        font-family: var(--font-nunito-Sans), sans-serif; 
         
     }
 
@@ -43,14 +43,14 @@ justify-content: space-between;
     line-height: 1.9rem;
     /* word-spacing: 1px; */
     color: #1C2540;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-inter), sans-serif;
     }
     
 .txt-big{
         color:#E4E4E4;
         font-size: 200px;
         font-weight: 400;
-        font-family:'Abril Fatface' sans-serif;
+        font-family:var(--font-abril-Fatface), sans-serif;
         margin-top:-3rem;
         
 }

@@ -1,17 +1,54 @@
-import { Inter } from 'next/font/google'
+// import { Inter, Abril_Fatface, Nunito_Sans } from 'next/font/google'
+// import './globals.css'
+
+// const inter = Inter({ subsets: ['latin'] })
+
+// export const metadata = {
+//   title: 'Ali Oseni',
+//   description: '',
+// }
+
+// export default function RootLayout({ children }) {
+//   return (
+//     <html lang="en">
+//       <body className={inter.className}>{children}</body>
+//     </html>
+//   )
+// }
+
+import { Inter, Abril_Fatface, Nunito_Sans } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['100','200','300','400','500'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+ 
+const abril_Fatface = Abril_Fatface({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-abril-Fatface',
+  display: 'swap',
 
-export const metadata = {
-  title: 'Ali Oseni',
-  description: '',
-}
+})
 
+const nunito_Sans = Nunito_Sans({
+  subsets: ['latin'],
+  weight: ['200','300','400','500', '600','700','800'],
+  style: ['normal', 'italic'],
+  variable: '--font-nunito-Sans',
+  display: 'swap',
+})
+
+ 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" >
+      <body className={`${inter.variable} ${abril_Fatface.variable} ${nunito_Sans.variable}`}>
+        {children}
+      </body>
     </html>
   )
 }
