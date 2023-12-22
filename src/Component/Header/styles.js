@@ -788,6 +788,9 @@ gap: 3rem;
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
+        @media only screen and (max-width: 900px) {
+            font-size: 14px; 
+        }
     }
 
     .form-box{
@@ -819,6 +822,12 @@ gap: 3rem;
         color:#6B7280;
         border-radius:1rem;
         transition:all .3s;
+        @media only screen and (max-width: 800px) {
+            width:23rem;
+        }
+        @media only screen and (max-width: 400px) {
+            width:21rem;
+        }
 
         /* &:focus{
             width:38rem;
@@ -834,6 +843,12 @@ gap: 3rem;
         border:1px solid #D1D5DB;
         color:#D1D5DB;
         border-radius:1rem;
+        @media only screen and (max-width: 800px) {
+            width:23rem;
+        }
+        @media only screen and (max-width: 400px) {
+            width:21rem;
+        }
     }
 
     .send__btn{
@@ -849,7 +864,12 @@ gap: 3rem;
     font-size: 16px;
     font-weight: 600;
     transition: all .3s;
-    
+    @media only screen and (max-width: 800px) {
+        width:22rem;
+    }
+    @media only screen and (max-width: 400px) {
+        width:20rem;
+    }
 
     &:hover{
         outline:4px solid #1C2540;
