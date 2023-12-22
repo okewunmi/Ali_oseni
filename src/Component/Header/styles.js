@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div  `
+
 .bck-1{
     background: #ffff;
 }
@@ -20,7 +21,7 @@ gap: 3rem;
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
-  margin-top: 4rem;
+  padding-top: 6rem;
    
 }
 
@@ -33,6 +34,7 @@ gap: 3rem;
     /* gap: 1rem; */
     @media only screen and (max-width: 1098px) {
         width: 52%;
+
         /* margin-left: -2rem; */
    
 }
@@ -55,7 +57,7 @@ gap: 3rem;
     font-size: 2.1rem;
 }
 @media only screen and (max-width: 500px) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
         
     }
@@ -76,7 +78,7 @@ gap: 3rem;
         font-size: .9rem;
 }
 @media only screen and (max-width: 868px) {
-  
+    font-size: .8rem;
    
 }
     }
@@ -101,7 +103,7 @@ gap: 3rem;
             font-size: 120px;
 }
 @media only screen and (max-width: 390px) {
-            font-size: 90px;
+            font-size: 80px;
 }
         
 }
@@ -116,7 +118,7 @@ gap: 3rem;
 }
     }
     @media only screen and (max-width: 868px) {
-        padding-left: 0rem;
+        padding-left: 1rem;
 }
    
 }
@@ -128,10 +130,9 @@ gap: 3rem;
     
     @media only screen and (max-width: 868px) {
         margin-right: 0rem;
-        width: 100%;
+        width: 80%;
       margin-left: 10rem;
-        /* padding: 0 8rem; */
-        margin-top: -4.5rem;
+        margin-top: -4rem;
             
 }
 @media only screen and (max-width: 570px) {
@@ -180,7 +181,7 @@ gap: 3rem;
 @media only screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 7rem;
 }
 
 
