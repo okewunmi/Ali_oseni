@@ -537,8 +537,8 @@ gap: 3rem;
 
 .container{
     display: flex;
-    padding: 0 4rem;
-    gap: 1.2rem;
+    padding: 0 2rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -547,13 +547,21 @@ gap: 3rem;
 .box{
     margin-top: 1.3rem;
     padding: 1rem;
-    width: 18rem;
-    height: 15rem;
+    width: 19rem;
+    height: 16rem;
     background: #EEEEEE;
     display: flex;
     flex-direction: column;
     gap: .8rem;
    
+    @media only screen and (max-width: 1016px) {
+        width: 21rem;
+        height: 17rem;
+    }
+    @media only screen and (max-width: 762px) {
+        width: 22rem;
+        height: 20rem;
+    }
   
 }
 .title{
@@ -707,15 +715,30 @@ gap: 3rem;
     padding: 3rem  0;
     align-items:center;
     justify-content:center;
-    gap:6rem;
+    gap:3rem;
+
+    @media only screen and (max-width: 560px) {
+        flex-direction:column;   
+}
 
     &__box{
-        gap:1.7rem;
+        gap:1.5rem;
         display:flex;
         align-items:center;
         flex-direction:column;
         color:#1F2937;
-        width:13%;
+        width:16%;
+
+        @media only screen and (max-width: 987px) {
+            width:20%;
+    }
+    @media only screen and (max-width: 600px) {
+        width:25%;
+}
+@media only screen and (max-width: 560px) {
+    width:40%; 
+}
+       
        
 
         .big{
@@ -723,7 +746,9 @@ gap: 3rem;
             font-size: 20px;
             font-weight: 600;
             line-height: 26px;
-
+            @media only screen and (max-width: 800px) {
+                font-size: 17px; 
+            }
 
         }
         .text{
@@ -733,7 +758,11 @@ gap: 3rem;
             line-height: 24px;
             letter-spacing: 0em;
             text-align: center;
-;
+
+            @media only screen and (max-width: 800px) {
+                font-size: 13px; 
+            }
+            
 
         }
 
@@ -741,12 +770,12 @@ gap: 3rem;
 }
 &__work{
    background: #EBF4F6;
-   padding: 5rem;
+   padding: 5rem ;
    display:flex;
    flex-direction:column;
    align-items:center;
    /* justify-content:center; */
-
+   
    form{
     display:flex;
     flex-direction:column;
