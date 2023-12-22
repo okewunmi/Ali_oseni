@@ -5,7 +5,7 @@ export const NavBar = styled.div `
 height: 90px;
 display: flex;
 background:#EBF4F6;
-width: 100%;
+// width: 100%;
 color: #171F38;
 justify-content: space-between;
 align-items: center;
@@ -14,7 +14,24 @@ padding-right: 40px;
 font-size: 16px;
 font-family: var(--font-nunito-Sans), sans-serif;  
 
+   @media only screen and (max-width: 1098px) {
+    padding-left: 80px;
+    }
+    @media only screen and (max-width: 986px) {
+       border-bottom: 1px solid grey;
+        }
+.menu{
+
+    display: none;
+   width: 2rem;
+   height: 2rem;
+    @media only screen and (max-width: 686px) {
+
+       display: block;
+        }
+}
   
+
 .NavBar__link{
     display: flex;
     gap: 1.3rem;

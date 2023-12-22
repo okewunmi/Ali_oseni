@@ -13,9 +13,15 @@ display: flex;
 background: #fff;
 color: #000;
 max-height: 80vh;
-justify-content: space-between;  
+width: 100%;
+justify-content: space-between; 
+gap: 3rem;
 
-
+@media only screen and (max-width: 868px) {
+  flex-direction: column;
+  justify-content: center;
+   
+}
 
 .header__txt {
     display: flex;
@@ -24,10 +30,32 @@ justify-content: space-between;
     width: 58%;
     margin-top:6rem;
     /* gap: 1rem; */
+    @media only screen and (max-width: 1098px) {
+        width: 52%;
+        /* margin-left: -2rem; */
+   
+}
+@media only screen and (max-width: 868px) {
+    width: 90%;
+}
+@media only screen and (max-width: 500px) {
+    width: 100%;
+}
+
    
     h1{
         font-size: 3.1rem;
         font-family: var(--font-nunito-Sans), sans-serif; 
+        
+        @media only screen and (max-width: 1098px) {
+            font-size: 2.5rem;
+}
+@media only screen and (max-width: 650px) {
+    font-size: 2.1rem;
+}
+@media only screen and (max-width: 500px) {
+    font-size: 1.4rem;
+}
         
     }
 
@@ -42,6 +70,14 @@ justify-content: space-between;
     line-height: 1.9rem;
     color: #1C2540;
     font-family: var(--font-inter), sans-serif;
+
+    @media only screen and (max-width: 1098px) {
+        font-size: .9rem;
+}
+@media only screen and (max-width: 868px) {
+  
+   
+}
     }
     
 .txt-big{
@@ -50,20 +86,58 @@ justify-content: space-between;
         font-weight: 400;
         font-family:var(--font-abril-Fatface), sans-serif;
         margin-top:-3rem;
+        @media only screen and (max-width: 1098px) {
+            font-size: 180px;
+         
+}
+@media only screen and (max-width: 800px) {
+            font-size: 150px;
+}
+@media only screen and (max-width: 700px) {
+            font-size: 140px;
+}
+@media only screen and (max-width: 600px) {
+            font-size: 120px;
+}
+@media only screen and (max-width: 390px) {
+            font-size: 100px;
+}
         
 }
     &__box{
-        padding-left: 122px;
+        padding-left: 100px;
         display:flex;
         gap:1rem;
         flex-direction: column;
+       
+        @media only screen and (max-width: 1098px) {
+            padding-left: 4rem;
+}
     }
+    @media only screen and (max-width: 868px) {
+        /* padding-left: 3rem; */
+}
    
 }
 .header__img{
-    padding-right: 5rem;
+   margin-right: 3rem;
+    display: flex;
     align-self:center;
-    // width: 5%;
+    width: 42%;
+    
+    @media only screen and (max-width: 868px) {
+        margin-right: 0rem;
+        width: 100%;
+      margin-left: 10rem;
+        /* padding: 0 8rem; */
+        margin-top: -4.5rem;
+            
+}
+@media only screen and (max-width: 570px) {
+    margin-left: 5rem;
+        /* padding: 0 8rem; */
+            
+}
 }
 .icon{
         display:flex;
@@ -71,7 +145,8 @@ justify-content: space-between;
         z-index: 1;     
     }
 .links{
-    cursor: povar(--font-inter);
+    cursor: pointer;
+    font-family: var(--font-inter);
     transition: all .3s;
 
     &:hover{
@@ -86,8 +161,24 @@ justify-content: space-between;
     display: flex;
     justify-content: center;
     gap: 3rem;
-
     padding: 4rem 15rem 5rem 15rem;
+
+    @media only screen and (max-width: 1098px) {
+        padding: 4rem 4rem 5rem 4rem;
+        gap: 2rem;
+         
+}
+
+    @media only screen and (max-width: 868px) {
+        margin-top: 4rem;
+        padding: 4rem 2rem 5rem 2rem;
+        gap: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+}
 
 
     .box{
@@ -95,17 +186,30 @@ justify-content: space-between;
         flex-direction: column;
         width: 30%;
 
+        @media only screen and (max-width: 768px) {
+            width: 90%;
+}
+
+
     }
     .image__1, .h__1{
         align-self: flex-end;
 
+        @media only screen and (max-width: 768px) {
+        align-self: center;
+}
+
     }
     .image__2{
         align-self: center;
+       
 
     }
     .image__3, .h__3{
         align-self: flex-start;
+        @media only screen and (max-width: 768px) {
+        align-self: center;
+} 
 
     }
     .img__sign{
@@ -121,9 +225,16 @@ justify-content: space-between;
         color: #1C2540;
         padding-top:1rem;
 
+        @media only screen and (max-width: 868px) {
+            font-size: 20px;
+}
+
     }
     .txt{
         padding-top: 5rem;
+        @media only screen and (max-width: 868px) {
+            padding-top: 2rem;
+}
     }
     .txt__1{
         font-family: var(--font-nunito-Sans), sans-serif;
@@ -131,6 +242,13 @@ justify-content: space-between;
         font-weight: 600;
         line-height: 32px;
         text-align: right;
+        padding-top: 5rem;
+        
+        @media only screen and (max-width: 868px) {
+            font-size: 14px;
+            padding-top: 2rem;
+}
+
     }
     .txt__2{
         margin-bottom: 2rem;
@@ -141,6 +259,9 @@ justify-content: space-between;
         letter-spacing: 0em;
         text-align: left;
         color: #1F2937;
+        @media only screen and (max-width: 868px) {
+            font-size: 14px;
+}
 
     }
     .txt__3{
@@ -151,16 +272,20 @@ justify-content: space-between;
         letter-spacing: 0em;
         text-align: left;
         color: #1F2937;
+        @media only screen and (max-width: 868px) {
+            font-size: 14px;
+}
 
     }
 
 }
 &__bring{
-    padding: 5rem;
+    padding:  5rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.3rem;
+    
 
    &__head{
     font-family: var(--font-nunito-Sans), sans-serif;
@@ -171,6 +296,14 @@ justify-content: space-between;
     text-align: center;
     color: #111111;
 
+    @media only screen and (max-width: 1000px) {
+        font-size: 24px; 
+}
+@media only screen and (max-width: 800px) {
+    font-size: 21px; 
+}
+
+
    }
    &__txt{
     font-family: var(--font-inter);
@@ -180,6 +313,11 @@ justify-content: space-between;
     letter-spacing: 0em;
     text-align: center;
     color: #666666;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 14px;
+        margin-top :-.9rem ;
+}
    }
    &__box{
     display: grid;
@@ -188,14 +326,31 @@ justify-content: space-between;
     place-items: center;
     gap: 1.2rem;
 
+    @media only screen and (max-width: 1000px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        place-items: center;
+}
+
+@media only screen and (max-width: 690px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    place-items: center;
+}
+  
+
     &--container{
-        padding: 1.5rem;
-        max-width: 20rem;
-        height: 17rem;
+        padding: 1.1rem;
+        max-width: 22rem;
+        height: 18rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
 
+        @media only screen and (max-width: 690px) {
+             max-width: 22rem;
+             height: 16rem;
+        }
        
 
         h3{
@@ -216,6 +371,7 @@ justify-content: space-between;
             letter-spacing: 0em;
             text-align: left;
             color: #666666;
+            
 
         }
 
@@ -237,7 +393,18 @@ justify-content: space-between;
     flex-direction: column;
     align-items: center;
     gap: 1.3rem; 
-    background:#EBF4F6; 
+    background:#EBF4F6;
+    
+    @media only screen and (max-width: 900px) {
+        padding: 4rem 3rem;
+        gap: 1rem; 
+}
+@media only screen and (max-width: 700px) {
+    padding: 3rem 2rem;
+    gap: 1rem;
+   
+
+}
 
    &__head{
     font-family: var(--font-nunito-Sans), sans-serif;
@@ -246,6 +413,16 @@ justify-content: space-between;
     line-height: 73px;
     letter-spacing: 0em;
 
+    @media only screen and (max-width: 900px) {
+        font-size: 40px; 
+}
+@media only screen and (max-width: 700px) {
+    font-size: 38px; 
+}
+@media only screen and (max-width: 568px) {
+    align-self: flex-start;
+    
+}
    }
    &__txt{
     font-family: var(--font-nunito-Sans), sans-serif;
@@ -255,17 +432,42 @@ justify-content: space-between;
     letter-spacing: 0em;
     text-align: center;
     margin-bottom: 4rem;
+    @media only screen and (max-width: 900px) {
+        font-size: 18px;
+        margin-bottom: 2rem 
+}
+@media only screen and (max-width: 600px) {
+    font-size: 16px;
+    margin-bottom: 1rem 
+    margin-top:-2rem;
+}
+@media only screen and (max-width: 568px) {
+    align-self: flex-start;
+    
+}
 
 
    }
    &__box{
     display: flex;
     /* flex-direction: column; */
+    
     justify-content: flex-start;
     gap: 7rem;
+    @media only screen and (max-width: 900px) {
+        gap: 3rem; 
+        margin-top: -1rem;
+}
+@media only screen and (max-width: 700px) {
+    gap: 2rem; 
+}
+@media only screen and (max-width: 568px) {
+    flex-direction :column ;
+    align-self: flex-start;
+    
+}
 
     .txt{
-        
 
         h3{
             font-family: var(--font-nunito-Sans), sans-serif;
@@ -274,6 +476,10 @@ justify-content: space-between;
             line-height: 36px;
             padding-bottom: 2rem;
             color:#1C2540;
+            @media only screen and (max-width: 900px) {
+                font-size: 20px;
+                
+        }
         }
     }
     p{
@@ -283,6 +489,10 @@ justify-content: space-between;
         line-height: 21px;
         padding-bottom: .9rem;
         color:#58677D;
+        @media only screen and (max-width: 900px) {
+            font-size: 14px;
+            
+    }
     }
    }
 }
@@ -298,27 +508,47 @@ justify-content: space-between;
     font-weight: 600;
     line-height: 73px;
     margin-bottom: .2rem;
-
+    @media only screen and (max-width: 900px) {
+        font-size: 40px; 
+}
+@media only screen and (max-width: 700px) {
+    font-size: 35px; 
+}
+@media only screen and (max-width: 700px) {
+    font-size: 28px; 
+}
    }
    &__txt{
     font-family: var(--font-nunito-Sans), sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
+
+    @media only screen and (max-width: 900px) {
+        font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    font-size: 16px;
+}
 }
 .margin-top{
     margin-top: 4rem;
 }
+
 .container{
     display: flex;
-    padding: 0 5rem;
+    padding: 0 4rem;
     gap: 1.2rem;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 .box{
     margin-top: 1.3rem;
     padding: 1rem;
+    width: 18rem;
+    height: 15rem;
     background: #EEEEEE;
     display: flex;
     flex-direction: column;
@@ -372,6 +602,17 @@ justify-content: space-between;
         margin: 4rem 0;
         width: 60%;
         border-radius: 1rem;
+
+        @media only screen and (max-width: 1000px) {
+            width: 80%;
+    }
+    @media only screen and (max-width: 750px) {
+        width: 90%;
+}
+@media only screen and (max-width: 660px) {
+    width: 70%;
+}
+
        
         .container{
             padding: 3rem 1.5rem;
@@ -380,7 +621,12 @@ justify-content: space-between;
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
-            
+
+            @media only screen and (max-width: 660px) {
+                flex-direction: column;
+                align-items: flex-start;     
+        }
+ 
             .head{
                 font-family: var(--font-nunito-Sans), sans-serif;
                 font-size: 20px;
@@ -388,6 +634,12 @@ justify-content: space-between;
                 line-height: 26px;
                 color: #1C2540;
                 width: 33%;
+                @media only screen and (max-width: 750px) {
+                    font-size: 16px;
+            }
+            @media only screen and (max-width: 660px) {
+                width: 100%;
+            }
 
             }
             .border{
@@ -400,6 +652,10 @@ justify-content: space-between;
                 align-self: self-start;
                  gap: 1rem;
                  width: 40%;
+                 @media only screen and (max-width: 660px) {
+                    width: 100%;
+                }
+
                  
 
                 &-head{
@@ -407,6 +663,9 @@ justify-content: space-between;
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 26px;
+                    @media only screen and (max-width: 750px) {
+                        font-size: 16px;
+                }
                 }
                 &-txt{
                     font-family: var(--font-nunito-Sans), sans-serif;
@@ -414,6 +673,9 @@ justify-content: space-between;
                     font-weight: 300;
                     line-height: 26px;
                     color:#1F2937;
+                    @media only screen and (max-width: 750px) {
+                        font-size: 14px;
+                }
                     
                 }
             }
@@ -431,6 +693,10 @@ justify-content: space-between;
                     font-size: 12px;
                     font-weight: 600;
                     line-height: 12px;
+
+                    @media only screen and (max-width: 750px) {
+                        font-size: 11px;
+                }
     
                 }  }
         }

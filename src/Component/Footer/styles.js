@@ -11,15 +11,31 @@ align-items:center;
 .footer{
     padding: 4rem 12rem 2rem 12rem;
     display:flex;
-    /* align-items:center; */
     justify-content:center;
     gap:6rem;
+
+    @media only screen and (max-width: 1100px) {
+        padding: 4rem 1rem 2rem 1rem;
+        gap:3rem;
+    }
+    @media only screen and (max-width: 900px) {
+        padding: 4rem .6rem 2rem .6rem;
+        gap:3rem;
+    }
+    @media only screen and (max-width: 680px) {
+        flex-direction: column;
+        padding: 4rem 4rem 2rem 4rem;
+        
+    }
 
     &__box{
         display:flex;
         flex-direction:column;
         gap:1.2rem;
         width:30%;
+        @media only screen and (max-width: 680px) {
+                width: 100%;
+    }
 
         form{
             display:flex;
@@ -32,6 +48,11 @@ align-items:center;
                 font-weight: 400;
                 line-height: 21px;
                 color: #FFFFFFB2;
+
+                @media only screen and (max-width: 1000px) {
+            font-size: 14px;
+            }
+            
             }
 
 
@@ -43,6 +64,10 @@ align-items:center;
             outline: none;
             border: none;
             border-radius:2rem;
+            @media only screen and (max-width: 1000px) {
+                width:14rem;
+                padding:.2rem 1rem;
+            }
 
             }
             button{
@@ -51,6 +76,10 @@ align-items:center;
                 width:18rem;
                 border-radius:2rem;
                 color:#FFFFFFB2;
+                @media only screen and (max-width: 1000px) {
+                width:14rem;
+                padding:.2rem .6rem;
+            }
             }
         }
     }
@@ -60,7 +89,12 @@ align-items:center;
         font-weight: 300;
         line-height: 26px;
         color:#FFFFFF;
-     
+        @media only screen and (max-width: 1000px) {
+            font-size: 14px;
+            }
+            @media only screen and (max-width: 680px) {
+                font-size: 14px;
+    }
     }
     &__icon{
         display:flex;
@@ -92,7 +126,11 @@ align-items:center;
             font-weight: 600;
             line-height: 24px;
             color:#FFFFFF;
-            margin-bottom:.5rem
+            margin-bottom:.5rem;
+
+            @media only screen and (max-width: 1000px) {
+            font-size: 16px;
+            }
 
         }
         Link{
@@ -101,7 +139,9 @@ align-items:center;
             font-weight: 400;
             line-height: 26px;
             color:#FFFFFF;
-
+            @media only screen and (max-width: 1000px) {
+            font-size: 14px;
+            }
         }
     }
     &__copyRight{
@@ -111,6 +151,10 @@ align-items:center;
         font-weight: 400;
         line-height: 22px;
         color:#FFFFFF;
+
+        @media only screen and (max-width: 1000px) {
+            padding:2rem 0 2rem 0;
+            }
 
     }
     &__white{

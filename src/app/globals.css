@@ -19,5 +19,6 @@
 body {
   padding: 0;
   margin: 0;  
+  box-sizing: border-box;
   font-family: var(--font-nunito-Sans), var(--font-abril-Fatface), var(--font-inter), sans-serif;
 }

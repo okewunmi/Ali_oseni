@@ -4,7 +4,7 @@ import { NavBar } from './styles';
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { LuSunMoon } from "react-icons/lu";
 import { useTheme } from '../../app/ThemeContext';
-
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 const Index = () => {
      const {toggleDarkMode, darkMode} = useTheme();
    
@@ -20,6 +20,7 @@ const Index = () => {
             <div>
                 <div className='NavBar__btn'>
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
+                <HiOutlineMenuAlt4 className='menu'/>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
                 {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
