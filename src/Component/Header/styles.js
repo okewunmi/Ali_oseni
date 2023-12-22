@@ -20,6 +20,7 @@ gap: 3rem;
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
+  margin-top: 4rem;
    
 }
 
@@ -39,7 +40,7 @@ gap: 3rem;
     width: 90%;
 }
 @media only screen and (max-width: 500px) {
-    width: 100%;
+    width: 90%;
 }
 
    
@@ -100,7 +101,7 @@ gap: 3rem;
             font-size: 120px;
 }
 @media only screen and (max-width: 390px) {
-            font-size: 100px;
+            font-size: 90px;
 }
         
 }
@@ -115,7 +116,7 @@ gap: 3rem;
 }
     }
     @media only screen and (max-width: 868px) {
-        /* padding-left: 3rem; */
+        padding-left: 0rem;
 }
    
 }
