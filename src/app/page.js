@@ -8,7 +8,7 @@ import { ThemeProvider } from './ThemeContext';
 export default function Home() {
   return (
     <ThemeProvider>
-     <Nav/>
+     {/* <Nav/> */}
      <Header/>
      <Footer/>
     </ThemeProvider>

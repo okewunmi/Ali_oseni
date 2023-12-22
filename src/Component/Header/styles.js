@@ -438,7 +438,7 @@ gap: 3rem;
 }
 @media only screen and (max-width: 600px) {
     font-size: 16px;
-    margin-bottom: 1rem 
+    margin-bottom: 1rem; 
     margin-top:-2rem;
 }
 @media only screen and (max-width: 568px) {
