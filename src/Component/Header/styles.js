@@ -135,6 +135,7 @@ gap: 3rem;
 }
 @media only screen and (max-width: 570px) {
     margin-left: 5rem;
+    padding-bottom:2rem;
         /* padding: 0 8rem; */
             
 }
@@ -178,6 +179,7 @@ gap: 3rem;
 @media only screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
+        margin-top: 5rem;
 }
 
 
