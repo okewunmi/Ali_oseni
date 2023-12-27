@@ -63,7 +63,7 @@ align-items:center;
             border: none;
             border-radius:2rem;
             @media only screen and (max-width: 1000px) {
-                width:18rem;
+                width:19rem;
                 padding:.4rem 1rem;
             }
 
@@ -75,7 +75,7 @@ align-items:center;
                 border-radius:2rem;
                 color:#FFFFFFB2;
                 @media only screen and (max-width: 1000px) {
-                width:18rem;
+                width:19rem;
                 padding:.4rem .6rem;
             }
             }
