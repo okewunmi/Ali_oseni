@@ -22,7 +22,7 @@ gap: 2rem;
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
-  padding-top: 30rem;
+  padding-top: 10rem;
    
 }
 
