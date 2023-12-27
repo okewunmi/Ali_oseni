@@ -16,12 +16,13 @@ color: #000;
 max-height: 80vh;
 width: 100%;
 justify-content: space-between; 
-gap: 3rem;
+gap: 2rem;
+
 
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
-  padding-top: 6rem;
+  padding-top: 30rem;
    
 }
 
@@ -29,36 +30,22 @@ gap: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 58%;
-    margin-top:6rem;
-    /* gap: 1rem; */
-    @media only screen and (max-width: 1098px) {
-        width: 52%;
+    width: 57%;
+    margin-top:7rem;
+    gap: 1rem;
 
-        /* margin-left: -2rem; */
-   
-}
-@media only screen and (max-width: 868px) {
-    width: 90%;
-}
-@media only screen and (max-width: 500px) {
-    width: 90%;
-}
+    @media only screen and (max-width: 1098px) { width: 60%;}
+    @media only screen and (max-width: 868px) {width: 90%;   }
+    @media only screen and (max-width: 500px) { width: 98%;}
 
    
     h1{
         font-size: 3.1rem;
         font-family: var(--font-nunito-Sans), sans-serif; 
         
-        @media only screen and (max-width: 1098px) {
-            font-size: 2.5rem;
-}
-@media only screen and (max-width: 650px) {
-    font-size: 2.1rem;
-}
-@media only screen and (max-width: 500px) {
-    font-size: 1.3rem;
-}
+        @media only screen and (max-width: 1098px) {font-size: 2.5rem;}
+        @media only screen and (max-width: 650px) {font-size: 1.9rem;}
+        @media only screen and (max-width: 500px) {font-size: 1.5rem;}
         
     }
 
@@ -74,13 +61,8 @@ gap: 3rem;
     color: #1C2540;
     font-family: var(--font-inter), sans-serif;
 
-    @media only screen and (max-width: 1098px) {
-        font-size: .9rem;
-}
-@media only screen and (max-width: 868px) {
-    font-size: .8rem;
-   
-}
+    @media only screen and (max-width: 1098px) {font-size: .9rem;}
+    @media only screen and (max-width: 868px) {font-size: .8rem;}
     }
     
 .txt-big{
@@ -89,21 +71,19 @@ gap: 3rem;
         font-weight: 400;
         font-family:var(--font-abril-Fatface), sans-serif;
         margin-top:-3rem;
-        @media only screen and (max-width: 1098px) {
-            font-size: 180px;
-         
-}
-@media only screen and (max-width: 800px) {
+        @media only screen and (max-width: 1098px) {font-size: 180px;}
+        @media only screen and (max-width: 800px) {
             font-size: 150px;
-}
-@media only screen and (max-width: 700px) {
-            font-size: 140px;
-}
-@media only screen and (max-width: 600px) {
-            font-size: 120px;
+            padding: 3rem 0;}
+        @media only screen and (max-width: 700px) {
+            font-size: 140px;}
+            @media only screen and (max-width: 600px) {
+            font-size: 110px;}
+@media only screen and (max-width: 470px) {
+            font-size: 100px;
 }
 @media only screen and (max-width: 390px) {
-            font-size: 80px;
+            font-size: 70px;          
 }
         
 }
@@ -113,35 +93,34 @@ gap: 3rem;
         gap:1rem;
         flex-direction: column;
        
-        @media only screen and (max-width: 1098px) {
-            padding-left: 4rem;
-}
+        @media only screen and (max-width: 1098px) {padding-left: 2rem;}
+        @media only screen and (max-width: 868px) {padding-left: 1rem;}
+        @media only screen and (max-width: 500px) {padding-left: 1rem;}
     }
-    @media only screen and (max-width: 868px) {
-        padding-left: 1rem;
-}
+ 
    
 }
 .header__img{
    margin-right: 3rem;
     display: flex;
     align-self:center;
-    width: 42%;
+    width: 35%;
     
     @media only screen and (max-width: 868px) {
         margin-right: 0rem;
-        width: 80%;
-      margin-left: 10rem;
+        width: 70%;
+        margin-left: 5rem;
         margin-top: -4rem;
             
 }
 @media only screen and (max-width: 570px) {
-    margin-left: 5rem;
+    margin-left: .2rem;
     padding-bottom:2rem;
         /* padding: 0 8rem; */
             
 }
 }
+
 .icon{
         display:flex;
         gap:1rem; 
@@ -160,7 +139,7 @@ gap: 3rem;
 &__details{
     background: #EBF4F6;
     /* height: 20vh; */
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     gap: 3rem;
@@ -173,15 +152,16 @@ gap: 3rem;
 }
 
     @media only screen and (max-width: 868px) {
-        margin-top: 4rem;
+        /* margin-top: 34rem; */
         padding: 4rem 2rem 5rem 2rem;
-        gap: 1.5rem;
+        gap: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 7rem;
+        margin-top: 25rem;
+        padding: 4rem 1.5rem 5rem 1.5rem;
 }
 
 
@@ -237,7 +217,7 @@ gap: 3rem;
     .txt{
         padding-top: 5rem;
         @media only screen and (max-width: 868px) {
-            padding-top: 2rem;
+            padding-top: 1rem;
 }
     }
     .txt__1{
@@ -250,7 +230,8 @@ gap: 3rem;
         
         @media only screen and (max-width: 868px) {
             font-size: 14px;
-            padding-top: 2rem;
+            padding-top: 1rem;
+            text-align: left;
 }
 
     }
@@ -289,6 +270,10 @@ gap: 3rem;
     flex-direction: column;
     align-items: center;
     gap: 1.3rem;
+
+    @media only screen and (max-width: 800px) {
+     padding:  5rem 1.5rem;
+}
     
 
    &__head{
@@ -302,9 +287,14 @@ gap: 3rem;
 
     @media only screen and (max-width: 1000px) {
         font-size: 24px; 
+       
 }
 @media only screen and (max-width: 800px) {
-    font-size: 21px; 
+    font-size: 20px; 
+}
+@media only screen and (max-width: 800px) {
+    font-size: 18px; 
+    margin-top:-2rem;
 }
 
 
@@ -321,6 +311,11 @@ gap: 3rem;
     @media only screen and (max-width: 1000px) {
         font-size: 14px;
         margin-top :-.9rem ;
+}
+@media only screen and (max-width: 800px) {
+        font-size: 13px;
+        margin-top :-1rem ;
+        line-height: 19px;
 }
    }
    &__box{
@@ -406,8 +401,10 @@ gap: 3rem;
 @media only screen and (max-width: 700px) {
     padding: 3rem 2rem;
     gap: 1rem;
-   
-
+}
+@media only screen and (max-width: 700px) {
+    padding: 1rem 2rem;
+    gap: 1rem;
 }
 
    &__head{
@@ -425,6 +422,7 @@ gap: 3rem;
 }
 @media only screen and (max-width: 568px) {
     align-self: flex-start;
+    font-size: 30px; 
     
 }
    }
@@ -441,12 +439,15 @@ gap: 3rem;
         margin-bottom: 2rem 
 }
 @media only screen and (max-width: 600px) {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 1rem; 
-    margin-top:-2rem;
+    margin-top:-1.4rem;
+    text-align: left;
+
 }
 @media only screen and (max-width: 568px) {
-    align-self: flex-start;
+    font-size: 16px;
+    line-height: 22px;
     
 }
 
@@ -468,6 +469,7 @@ gap: 3rem;
 @media only screen and (max-width: 568px) {
     flex-direction :column ;
     align-self: flex-start;
+     gap: 2rem; 
     
 }
 
@@ -482,8 +484,14 @@ gap: 3rem;
             color:#1C2540;
             @media only screen and (max-width: 900px) {
                 font-size: 20px;
+                padding-bottom: 2rem;
+                
+        }@media only screen and (max-width: 600px) {
+                font-size: 20px;
+                padding-bottom: 1rem;
                 
         }
+        
         }
     }
     p{
@@ -491,10 +499,10 @@ gap: 3rem;
         font-size: 16px;
         font-weight: 400;
         line-height: 21px;
-        padding-bottom: .9rem;
+        padding-bottom: .7rem;
         color:#58677D;
         @media only screen and (max-width: 900px) {
-            font-size: 14px;
+          
             
     }
     }
@@ -505,6 +513,11 @@ gap: 3rem;
     flex-direction: column;
     align-items: center;
     padding: 2.3rem 0;
+
+    @media only screen and (max-width: 700px) {
+        padding: 2rem 0;
+    
+}
 
     &__head{
     font-family: var(--font-nunito-Sans), sans-serif;
@@ -519,7 +532,8 @@ gap: 3rem;
     font-size: 35px; 
 }
 @media only screen and (max-width: 700px) {
-    font-size: 28px; 
+    font-size: 20px; 
+
 }
    }
    &__txt{
@@ -527,12 +541,14 @@ gap: 3rem;
     font-size: 20px;
     font-weight: 300;
     line-height: 32px;
+    text-align:center;
 
     @media only screen and (max-width: 900px) {
         font-size: 18px;
 }
 @media only screen and (max-width: 600px) {
-    font-size: 16px;
+    margin-top:-1rem;
+    width: 80%;
 }
 }
 .margin-top{
@@ -563,8 +579,8 @@ gap: 3rem;
         height: 17rem;
     }
     @media only screen and (max-width: 762px) {
-        width: 22rem;
-        height: 20rem;
+        width: 19rem;
+        height: 16rem;
     }
   
 }
@@ -610,6 +626,10 @@ gap: 3rem;
     background: #EBF4F6;
     padding: 4rem 0;
 
+    @media only screen and (max-width: 660px) {
+        padding: 2rem 0;
+}
+
     &__box{
         margin: 4rem 0;
         width: 60%;
@@ -622,7 +642,7 @@ gap: 3rem;
         width: 90%;
 }
 @media only screen and (max-width: 660px) {
-    width: 70%;
+    width: 88%;
 }
 
        
@@ -636,7 +656,8 @@ gap: 3rem;
 
             @media only screen and (max-width: 660px) {
                 flex-direction: column;
-                align-items: flex-start;     
+                align-items: flex-start; 
+                padding:  1.5rem;    
         }
  
             .head{
@@ -725,6 +746,7 @@ gap: 3rem;
         flex-direction:column;   
 }
 
+
     &__box{
         gap:1.5rem;
         display:flex;
@@ -741,6 +763,7 @@ gap: 3rem;
 }
 @media only screen and (max-width: 560px) {
     width:40%; 
+    gap:1rem;
 }
        
        
@@ -778,8 +801,56 @@ gap: 3rem;
    display:flex;
    flex-direction:column;
    align-items:center;
+   @media only screen and (max-width: 800px) {
+    padding: 2rem ;
+
+}
+
    /* justify-content:center; */
    
+   &__head{
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.625px;
+    text-align: center;
+    color: #111111;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 24px; 
+       
+}
+@media only screen and (max-width: 800px) {
+    font-size: 20px; 
+}
+@media only screen and (max-width: 800px) {
+    font-size: 18px; 
+
+}
+
+
+   }
+   &__txt{
+    font-family: var(--font-inter);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #666666;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 14px;
+        /* margin-top :-.9rem ; */
+}
+@media only screen and (max-width: 800px) {
+        font-size: 16px;
+        /* margin-top :-1rem ; */
+        line-height: 19px;
+        width: 100%;
+}
+   }
    form{
     display:flex;
     flex-direction:column;
@@ -793,7 +864,7 @@ gap: 3rem;
         font-weight: 600;
         line-height: 24px;
         @media only screen and (max-width: 900px) {
-            font-size: 14px; 
+            font-size: 16px; 
         }
     }
 
@@ -830,7 +901,7 @@ gap: 3rem;
             width:23rem;
         }
         @media only screen and (max-width: 400px) {
-            width:21rem;
+            width:18rem;
         }
 
         /* &:focus{
@@ -851,7 +922,7 @@ gap: 3rem;
             width:23rem;
         }
         @media only screen and (max-width: 400px) {
-            width:21rem;
+            width:18rem;
         }
     }
 
@@ -872,7 +943,7 @@ gap: 3rem;
         width:22rem;
     }
     @media only screen and (max-width: 400px) {
-        width:20rem;
+        width:17rem;
     }
 
     &:hover{

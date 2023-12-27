@@ -267,8 +267,8 @@ const Index = () => {
 
             </div>
             <div className='header__work' style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
-            <h1 className='header__bring__head' style={{  color:darkMode? '#ffff': "#020A13"}}>Want to work with me?</h1>
-                <p className='header__bring__txt' style={{  color:darkMode? '#ffff': "#020A13"}}>Cool! Let’s talk about your project</p>
+            <h1 className='header__work__head ' style={{  color:darkMode? '#ffff': "#020A13"}}>Want to work with me?</h1>
+                <p className='header__work__txt ' style={{  color:darkMode? '#ffff': "#020A13"}}>Cool! Let’s talk about your project</p>
                 <form>
                     <div className='form-box'>
                     <label>Your Name</label>

@@ -31,12 +31,13 @@ const Index = () => {
                     <Link href='/contact' >Contact Us</Link>
                 </div>
                 <div className='footer__box'>
-                <h3 className='footer__link-head'>Dope UX</h3>
+                <h3 className='footer__link-head'>Subscribe</h3>
                 <p className='footer__txt'>Join our mailing list. We write rarely, but only the best content.</p>
                 <form>
                     <label>Email address</label>
                     <input type='txt' placeholder="example@company.com" />
                     <button>Subscribe</button>
+                    <p className='footer__privacy'>We’ll never share your details. <span>See our Privacy Policy</span> </p>
                 </form>
                 </div>
             </div>

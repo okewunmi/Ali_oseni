@@ -24,7 +24,7 @@ align-items:center;
     }
     @media only screen and (max-width: 680px) {
         flex-direction: column;
-        padding: 4rem 4rem 2rem 4rem;
+        padding: 4rem  2rem ;
         
     }
 
@@ -40,18 +40,16 @@ align-items:center;
         form{
             display:flex;
             flex-direction: column;
-            gap:.5rem;
+            gap:1rem;
 
             label{
                 font-family: var(--font-nunito-Sans), sans-serif;
                 font-size: 16px;
-                font-weight: 400;
+                font-weight: 600;
                 line-height: 21px;
                 color: #FFFFFFB2;
 
-                @media only screen and (max-width: 1000px) {
-            font-size: 14px;
-            }
+               
             
             }
 
@@ -65,8 +63,8 @@ align-items:center;
             border: none;
             border-radius:2rem;
             @media only screen and (max-width: 1000px) {
-                width:14rem;
-                padding:.2rem 1rem;
+                width:18rem;
+                padding:.4rem 1rem;
             }
 
             }
@@ -77,8 +75,8 @@ align-items:center;
                 border-radius:2rem;
                 color:#FFFFFFB2;
                 @media only screen and (max-width: 1000px) {
-                width:14rem;
-                padding:.2rem .6rem;
+                width:18rem;
+                padding:.4rem .6rem;
             }
             }
         }
@@ -144,22 +142,40 @@ align-items:center;
             }
         }
     }
+    &__privacy{
+        font-family: var(--font-nunito-Sans), sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:#FFFFFF;
+
+        span{
+            font-weight: 600;
+        }
+
+
+    }
     &__copyRight{
-        padding:5rem 0 2rem 0;
+        padding:2rem 0;
         font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 14px;
         font-weight: 400;
         line-height: 22px;
         color:#FFFFFF;
 
-        @media only screen and (max-width: 1000px) {
-            padding:2rem 0 2rem 0;
+        @media only screen and (max-width: 500px) {
+            font-size: 13px;
+            font-weight: 200;
+            margin-top: -2rem;
             }
+
 
     }
     &__white{
         background:#FFFFFF;
-        height:13rem;
+        height:10rem;
         width:100%
     }
 }
