@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const Content =styled.div`
+export const Content = styled.div`
+
 
 background:linear-gradient(170.1deg, rgba(173, 206, 214, 0.89) 1.17%, rgba(199, 199, 199, 0) 90.49%);
 width: 60%;
@@ -8,9 +9,26 @@ display: flex;
 position: relative;
 margin-top: -37.3rem;
 align-self: flex-end;
+
 flex-direction: column;
 gap: 2rem;
 padding-bottom: 2rem;
+
+@media only screen and (max-width: 1023px) {
+    margin-top: -55rem;      
+    
+}
+@media only screen and (max-width: 863px) {
+    margin-top: -60rem; 
+    width     : 70%;
+    
+}
+@media only screen and (max-width: 767px) {
+    margin-top: -75.6rem; 
+    width     : 100%;
+    align-self: center;
+    
+}
 
 
 .head{
@@ -27,6 +45,16 @@ padding-bottom: 2rem;
         font-size: 25px;
         font-weight: 700;
         line-height: 59px;
+
+        @media only screen and (max-width: 767px) {
+   font-size: 16px;
+    
+}
+@media only screen and (max-width: 467px) {
+   font-size: 14px;
+    
+}
+
 
     }
 }
@@ -71,18 +99,45 @@ padding-bottom: 2rem;
         font-weight: 700;
         line-height: 49px;
         color: #1C2540;
+        @media only screen and (max-width: 767px) {
+   font-size: 26px;
+    
+}
+@media only screen and (max-width: 467px) {
+   font-size: 20px;
+    
+}
+
     }
     h2{
         font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 24px;
         font-weight: 700;
         line-height: 33px;
+        @media only screen and (max-width: 767px) {
+   font-size: 18px;
+    
+}
+@media only screen and (max-width: 467px) {
+   font-size: 16px;
+    
+}
+
     }
     p{
         font-family: var(--font-inter), sans-serif;
         font-size: 20px;
         font-weight: 400;
         line-height: 32px;
+        @media only screen and (max-width: 767px) {
+   font-size: 18px;
+    
+}
+@media only screen and (max-width: 467px) {
+   font-size: 15px;
+    
+}
+
        
 
     }
@@ -105,6 +160,16 @@ padding-bottom: 2rem;
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 617px) {
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+
+
+}
+
+
 
     .btn-color{
         background: #000B1D;
@@ -141,7 +206,11 @@ padding-bottom: 2rem;
         width: 17rem;
         padding: 1.2rem ;
 
-        
+        @media only screen and (max-width: 617px) {
+            width:95%;
+   
+
+}
         &:hover{
           
             
@@ -149,4 +218,7 @@ padding-bottom: 2rem;
     }
 }
 
+
+
 `
+

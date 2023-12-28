@@ -33,6 +33,7 @@ const Index = () => {
                 <div className='NavBar__btn'>
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
+                <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
                 {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>

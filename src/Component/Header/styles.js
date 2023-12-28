@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div  `
 
+
 .bck-1{
     background: #ffff;
 }
@@ -164,7 +165,7 @@ gap: 2rem;
         /* margin-top: 34rem; */
         padding: 4rem 2rem 5rem 2rem;
         gap: 1rem;
-        /* margin-top: -3rem; */
+        margin-top: 13rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -173,11 +174,16 @@ gap: 2rem;
         margin-top: 17rem;
         padding: 4rem 1.5rem 5rem 1.5rem;
 }
-
+@media only screen and (max-width: 680px) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8rem;
+        padding: 4rem 1.5rem 5rem 1.5rem;
+}
 @media only screen and (max-width: 480px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 10rem;
+        margin-top: 6rem;
         padding: 4rem 1.5rem 5rem 1.5rem;
 }
 
@@ -532,8 +538,18 @@ gap: 2rem;
     align-items: center;
     padding: 2.3rem 0;
 
+ 
+
     @media only screen and (max-width: 700px) {
         padding: 2rem 0;
+    
+}
+@media only screen and (max-width: 864px) {
+        margin-top: 13rem;
+    
+}
+@media only screen and (max-width: 864px) {
+        margin-top: 7rem;
     
 }
 
@@ -553,6 +569,7 @@ gap: 2rem;
     font-size: 20px; 
 
 }
+
    }
    &__txt{
     font-family: var(--font-nunito-Sans), sans-serif;
@@ -978,5 +995,7 @@ gap: 2rem;
 }
 
     }
+
+    
 
 `
