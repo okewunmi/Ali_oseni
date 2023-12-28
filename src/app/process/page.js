@@ -9,6 +9,8 @@ import { FaTwitter, FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub, FaDribbble
 import { BsArrowRight } from "react-icons/bs";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { ThemeProvider, useTheme } from '../ThemeContext';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+
 // import Nav from '../../Component/Nav/Index';
 import { Fade } from 'react-swift-reveal';
 const Index = () => {
@@ -18,6 +20,10 @@ const Index = () => {
   const toggleDarkMode=() => {
     setDarkMode((prev) => !prev);
   };
+
+  const toggleMenu=()=>{
+    
+  }
 
     return (
       <Fade duration={500} distance='30px' delay={500} >

@@ -11,6 +11,8 @@ import { FaTwitter, FaSlack, FaGithub, FaDribbble  } from "react-icons/fa";
 import { Content } from '@/Component/Footer/styles';
 import Image from 'next/image';
 import { Fade } from 'react-swift-reveal';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+
 
 const Page = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -19,6 +21,9 @@ const Page = () => {
     setDarkMode((prev) => !prev);
   };
 
+  const toggleMenu=()=>{
+
+  }
     return (
         <Fade duration={500} distance='30px' delay={500} >
         <Wrapper style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>

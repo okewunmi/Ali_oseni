@@ -9,6 +9,7 @@ import {Fade} from 'react-swift-reveal'
 import { FaBehance } from "react-icons/fa";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { NavBar } from '@/Component/Nav/styles';
+import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 
 
 const Index = () => {
@@ -17,6 +18,9 @@ const Index = () => {
     const toggleDarkMode=() => {
       setDarkMode((prev) => !prev);
     };
+    const toggleMenu=()=>{
+        
+    }
     
     return (
         <Fade duration={500} distance='30px' delay={500} >
@@ -32,6 +36,7 @@ const Index = () => {
                 <div className='NavBar__btn'>
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
+                <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
                 {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>
