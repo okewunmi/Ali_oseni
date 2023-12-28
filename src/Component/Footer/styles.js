@@ -22,7 +22,7 @@ align-items:center;
         padding: 4rem .6rem 2rem .6rem;
         gap:3rem;
     }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 800px) {
         flex-direction: column;
         padding: 4rem  2rem ;
         
@@ -63,7 +63,7 @@ align-items:center;
             border: none;
             border-radius:2rem;
             @media only screen and (max-width: 1000px) {
-                width:19rem;
+                width:18rem;
                 padding:.4rem 1rem;
             }
 
@@ -75,7 +75,7 @@ align-items:center;
                 border-radius:2rem;
                 color:#FFFFFFB2;
                 @media only screen and (max-width: 1000px) {
-                width:19rem;
+                width:18rem;
                 padding:.4rem .6rem;
             }
             }

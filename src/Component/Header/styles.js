@@ -25,33 +25,40 @@ gap: 2rem;
   padding-top: 10rem;
    
 }
+@media only screen and (max-width: 580px) {
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+   
+}
 
 .header__txt {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 57%;
+    width: 59%;
     margin-top:7rem;
     gap: 1rem;
 
     @media only screen and (max-width: 1098px) { width: 60%;}
-    @media only screen and (max-width: 868px) {width: 90%;   }
-    @media only screen and (max-width: 500px) { width: 98%;}
+    @media only screen and (max-width: 868px) {width: 90%; 
+        margin-top:10rem;  }
+    @media only screen and (max-width: 500px) { width: 95%;}
 
    
     h1{
-        font-size: 3.1rem;
+        font-size: 50px;
         font-family: var(--font-nunito-Sans), sans-serif; 
         
         @media only screen and (max-width: 1098px) {font-size: 2.5rem;}
         @media only screen and (max-width: 650px) {font-size: 1.9rem;}
-        @media only screen and (max-width: 500px) {font-size: 1.5rem;}
+        @media only screen and (max-width: 500px) {font-size: 1.3rem;}
         
     }
 
     strike{
         font-weight: bold;
-        font-weight :700 ;
+        font-weight :800 ;
     }
 
     .txt{
@@ -62,7 +69,7 @@ gap: 2rem;
     font-family: var(--font-inter), sans-serif;
 
     @media only screen and (max-width: 1098px) {font-size: .9rem;}
-    @media only screen and (max-width: 868px) {font-size: .8rem;}
+    @media only screen and (max-width: 868px) {font-size: 1rem;}
     }
     
 .txt-big{
@@ -88,34 +95,36 @@ gap: 2rem;
         
 }
     &__box{
-        padding-left: 100px;
+        padding-left: 90px;
         display:flex;
         gap:1rem;
         flex-direction: column;
        
         @media only screen and (max-width: 1098px) {padding-left: 2rem;}
-        @media only screen and (max-width: 868px) {padding-left: 1rem;}
-        @media only screen and (max-width: 500px) {padding-left: 1rem;}
+        @media only screen and (max-width: 868px) {padding-left: 1.2rem;}
+        @media only screen and (max-width: 500px) {padding-left: 1.7rem;}
     }
  
    
 }
 .header__img{
-   margin-right: 3rem;
+   margin-right: 8rem;
     display: flex;
     align-self:center;
-    width: 35%;
+    width: 29%;
+
     
     @media only screen and (max-width: 868px) {
         margin-right: 0rem;
         width: 70%;
         margin-left: 5rem;
         margin-top: -4rem;
+        padding:2rem 0 0 0;
             
 }
 @media only screen and (max-width: 570px) {
     margin-left: .2rem;
-    padding-bottom:2rem;
+    /* padding-bottom:2rem; */
         /* padding: 0 8rem; */
             
 }
@@ -155,12 +164,20 @@ gap: 2rem;
         /* margin-top: 34rem; */
         padding: 4rem 2rem 5rem 2rem;
         gap: 1rem;
+        /* margin-top: -3rem; */
 }
 
 @media only screen and (max-width: 768px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 25rem;
+        margin-top: 17rem;
+        padding: 4rem 1.5rem 5rem 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10rem;
         padding: 4rem 1.5rem 5rem 1.5rem;
 }
 
@@ -350,6 +367,7 @@ gap: 2rem;
              max-width: 22rem;
              height: 16rem;
         }
+        
        
 
         h3{

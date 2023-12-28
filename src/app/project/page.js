@@ -61,10 +61,10 @@ const Index = () => {
                 <Image src='/photo.png' alt='photos' width={420} height={420} className='photo__1'/>
             </div>
             </div>
-            <div className='header__ux my-16 'style={{background:darkMode? "#020D1A":"#EBF4F6", color:darkMode? '#ffff': "#020A13"}}>
+            <div className='header__ux  my-16 'style={{background:darkMode? "#020D1A":"#EBF4F6", color:darkMode? '#ffff': "#020A13"}}>
             <h1 className='header__ux__head '>Latest Project </h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
-                <div className='container '>
+                <div className='container  '>
                     <Link href='/project/Nexter'><div className='box !bg-white'>
                         <Image src='/ux-prj-1.png' className='img' width={450} height={250} alt='img' />
                         <p className='title'>Nester Verify</p>
@@ -87,7 +87,7 @@ const Index = () => {
                 <div className=" header__ux ">
                 <h1 className='header__ux__head'>UI/UX Design Projects</h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
-                <div className='container'>
+                <div className='container grid'>
                    <Link href='/project/StackIam'><div className='box !bg-blue-950'>
                         <Image src='/stack-1.png' className='img' width={450} height={250} alt='img' />
                         <p className='title !text-gray-300'>StackIAM </p>
@@ -104,8 +104,7 @@ const Index = () => {
                         <p className='txt !text-gray-300 !pb-24'>Mobile Application - UI/UX Design</p>
                     </div></Link> 
                       
-                </div>
-                <div className='container'>
+               
                    <Link href='#'><div className='box !bg-blue-950'>
                         <Image src='/muh.png' className='img' width={450} height={250} alt='img' />
                         <p className='title !text-gray-300'>Muhasaba Mobile</p>
@@ -122,8 +121,7 @@ const Index = () => {
                         <p className='txt !text-gray-300 !pb-24'>Website - UI/UX Design</p>
                     </div></Link> 
                       
-                </div>
-                <div className='container'>
+                
                    <Link href='#'><div className='box !bg-blue-950'>
                         <Image src='/vapo.png' className='img' width={450} height={250} alt='img' />
                         <p className='title !text-gray-300'>Vapo Travels  </p>

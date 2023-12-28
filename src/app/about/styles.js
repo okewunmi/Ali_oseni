@@ -4,19 +4,82 @@ export const Wrapper = styled.div `
 
 color: black;
 
+.text-1{
+  width: 95%;
+}
+.qr__image{
+  padding: 1rem 0;
+}
+.QR{
+  width: 100%;
+  margin-top: -7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
+  @media only screen and (max-width: 700px) {
+   display: none;
+         
+}
 
+  .link{
+      border-bottom:1px solid black ;
+      font-family: var(--font-inter), sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 22px;
+      transition: all .3s;
+      align-self: center;
+
+      @media only screen and (max-width: 780px) {
+    font-size: 12px;
+         
+}
+
+      &:hover{
+        
+      }
+
+    }
+}
 .timeline {
- padding: 2rem 15rem;
+ padding: 7rem 8rem;
  /* text-align: justify; */
-
+ @media only screen and (max-width: 1098px) {
+  padding: 2rem 5rem;
+         
+}
+@media only screen and (max-width: 900px) {
+  padding: 2rem 3.5rem;
+         
+}
+@media only screen and (max-width: 800px) {
+  padding: 2rem 3rem;
+         
+}
+@media only screen and (max-width: 600px) {
+  padding: 2rem 2.5rem;
+         
+}
+@media only screen and (max-width: 500px) {
+  padding: 2rem 1.5rem;
+         
+}
  h3{
   padding-left:1rem ;
   font-family: var(--font-nunito-Sans), sans-serif;
   font-size: 47px;
   font-weight: 900;
   line-height: 59px;
-
+  @media only screen and (max-width: 800px) {
+    font-size: 37px;
+         
+}
+  @media only screen and (max-width: 500px) {
+    font-size: 27px;
+         
+}
  }
   
  
@@ -41,25 +104,22 @@ color: black;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
-
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
+.flex{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
 
   .head{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    .link{
-      border-bottom:1px solid black ;
-      font-family: var(--font-inter), sans-serif;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 22px;
-      transition: all .3s;
-
-      &:hover{
-        
-      }
-
-    }
+    
   }
 }
 
@@ -73,7 +133,10 @@ color: black;
   font-weight: 600;
   /* line-height: 27px; */
   padding-bottom: 1rem;
-
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
 }
 
 .timeline-list span {
@@ -109,6 +172,13 @@ color: black;
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
+
+  
+  @media only screen and (max-width: 500px) {
+    font-size: 14px;
+         
+}
+
   /* padding-bottom: 1.5rem; */
 
 }
@@ -120,7 +190,10 @@ color: black;
   padding-left:1rem ;
   margin: 4rem 0 2rem 0;
 
-
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
 }
 .date{
   display: flex;
@@ -148,6 +221,10 @@ color: black;
       font-size: 16px;
       font-weight: 400;
       line-height: 21px;
+      @media only screen and (max-width: 500px) {
+        font-size: 14px;
+         
+}
 
     }
     span{

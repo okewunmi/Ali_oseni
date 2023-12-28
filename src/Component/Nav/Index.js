@@ -7,7 +7,10 @@ import { useTheme } from '../../app/ThemeContext';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 const Index = () => {
      const {toggleDarkMode, darkMode} = useTheme();
-   
+
+   const toggleMenu =()=>{
+
+   }
     return (
         // <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}>
          <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
@@ -20,9 +23,8 @@ const Index = () => {
             <div>
                 <div className='NavBar__btn'>
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
-                <HiOutlineMenuAlt4 className='menu'/>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
-                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
+                <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
                 </div>
             </div>
         </NavBar>

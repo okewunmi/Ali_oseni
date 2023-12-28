@@ -23,8 +23,30 @@ color: black;
 }
 
 .timeline {
- padding: 2rem 15rem;
  text-align: justify;
+
+ padding: 7rem 8rem;
+ /* text-align: justify; */
+ @media only screen and (max-width: 1098px) {
+  padding: 2rem 5rem;
+         
+}
+@media only screen and (max-width: 900px) {
+  padding: 2rem 3.5rem;
+         
+}
+@media only screen and (max-width: 800px) {
+  padding: 2rem 3rem;
+         
+}
+@media only screen and (max-width: 600px) {
+  padding: 2rem 2.5rem;
+         
+}
+@media only screen and (max-width: 500px) {
+  padding: 2rem 1.5rem;
+         
+}
 
  h3{
   padding-left:1rem ;
@@ -32,6 +54,14 @@ color: black;
   font-size: 47px;
   font-weight: 900;
   line-height: 59px;
+  @media only screen and (max-width: 800px) {
+    font-size: 37px;
+         
+}
+  @media only screen and (max-width: 500px) {
+    font-size: 27px;
+         
+}
 
  }
   
@@ -56,6 +86,10 @@ color: black;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
 
 
   .head{
@@ -87,6 +121,10 @@ color: black;
   font-size: 18px;
   font-weight: 600;
   padding-bottom: .8rem;
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
 
 }
 
@@ -145,7 +183,10 @@ color: black;
   font-weight: 400;
   line-height: 30px;
   /* padding-bottom: 1.5rem; */
-
+  @media only screen and (max-width: 500px) {
+    font-size: 14px;
+         
+}
 }
 .sub{
   font-family:var(--font-inter), sans-serif;
@@ -154,7 +195,10 @@ color: black;
   line-height: 23px;
   padding-left:1rem ;
   margin: 4rem 0 2rem 0;
-
+  @media only screen and (max-width: 500px) {
+    font-size: 16px;
+         
+}
 
 }
 .date{
@@ -183,7 +227,10 @@ color: black;
       font-size: 16px;
       font-weight: 400;
       line-height: 21px;
-
+      @media only screen and (max-width: 500px) {
+        font-size: 14px;
+         
+}
     }
     span{
       padding-left: 1.2rem;

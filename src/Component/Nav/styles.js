@@ -20,13 +20,16 @@ font-family: var(--font-nunito-Sans), sans-serif;
     @media only screen and (max-width: 986px) {
        border-bottom: 1px solid grey;
         }
+
+        @media only screen and (max-width: 686px) {
+    justify-content: flex-end;
+        }
 .menu{
 
     display: none;
    width: 2rem;
    height: 2rem;
     @media only screen and (max-width: 686px) {
-
        display: block;
         }
 }
@@ -53,6 +56,7 @@ font-family: var(--font-nunito-Sans), sans-serif;
     align-items: center;
     gap: 1rem;
 
+    
 
     &--btn{
         border: 1px solid #171F38;

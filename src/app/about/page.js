@@ -9,7 +9,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { GrSchedules } from "react-icons/gr";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import {  Fade} from 'react-swift-reveal';
-
+import Image from 'next/image';
 
 const Index = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -42,18 +42,21 @@ const Index = () => {
             </div>
 
             <ol className="timeline-list">
-              <li className="timeline-item">
+              <li className="timeline-item flex">
+                <div>
                 <div className='head'> <h4 className="h4 timeline-item-title">
                 Oseni Ali - UI/UX Designer
                 </h4>
-                <div><Link className='link' href='#'>View Dribbble</Link></div>
-                
                 </div>
-               
 
-                {/* <span>June, 2022</span> */}
-
-                <p className="timeline-text">Greetings! I&apos; m Oseni Ali, a passionate UI/UX designer dedicated to crafting seamless and engaging digital experiences. With a keen eye for aesthetics and a user-centric approach, I specialize in translating complex ideas into intuitive and visually appealing designs. My journey involves a blend of creative thinking, problem-solving, and staying at the forefront of design trends. Here&apos;s what defines me:</p>
+                <p className="timeline-text text-1">Greetings! I&apos; m Oseni Ali, a passionate UI/UX designer dedicated to crafting seamless and engaging digital experiences. With a keen eye for aesthetics and a user-centric approach, I specialize in translating complex ideas into intuitive and visually appealing designs. My journey involves a blend of creative thinking, problem-solving, and staying at the forefront of design trends. Here&apos;s what defines me:</p>
+                </div>
+                <div className='QR'>
+                <Link className='link' href='#'>Linkedin QR Code</Link>
+                <Image src='/QR.png' width={180} height={100} alt='qr' className='qr__image' />
+                  <Link className='link' href='#'>View Dribbble</Link>
+                 
+                </div>
               </li>
               <li className="timeline-item">
               <div className='head'> 
