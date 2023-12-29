@@ -1,6 +1,6 @@
 "use client"
 import React, {useState} from 'react';
-import { Wrapper } from '../../../Component/Header/styles';
+// import { Wrapper } from '../../../Component/Header/styles';
 import {Content} from './styles'
 import Nav from '../../../Component/Nav/Index'
 import Link from 'next/link';

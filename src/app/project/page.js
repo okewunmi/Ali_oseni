@@ -166,8 +166,6 @@ const Index = () => {
                         <p className='title'>Farmhub360</p>
                         <p className='txt'>The Pitch-deck Design</p>
                     </div></Link> 
-                </div>
-                <div className='container  !pb-28'>
                    <Link href='/project/Zeedas'><div className='box'>
                         <Image src='/llc.png' className='img' width={450} height={250} alt='img' />
                         <p className='title'>Zeedas Presentation</p>

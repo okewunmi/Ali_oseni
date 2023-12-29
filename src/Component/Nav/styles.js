@@ -24,6 +24,9 @@ font-family: var(--font-nunito-Sans), sans-serif;
         @media only screen and (max-width: 686px) {
     justify-content: flex-end;
         }
+        @media only screen and (max-width: 500px) {
+            padding-left: 30px;
+        }
 .menu{
 
     display: none;
@@ -63,11 +66,15 @@ font-family: var(--font-nunito-Sans), sans-serif;
 
     &--btn{
         border: 1px solid #171F38;
-        padding: 0.5rem .9rem;
+        padding: 0.5rem .8rem;
         font-size: .8rem;
         border-radius: .8rem;
         transition: all .4s;
 
+        @media only screen and (max-width: 425px) {
+        font-size: .7rem;
+        padding: 0.4rem .7rem;
+ }
         &:hover, &:focus{
             color: #EBF4F6;
             background: #171F38;

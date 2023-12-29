@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Content = styled.div`
 
-
 background:linear-gradient(170.1deg, rgba(173, 206, 214, 0.89) 1.17%, rgba(199, 199, 199, 0) 90.49%);
+
+
 width: 60%;
 display: flex;
 position: relative;
@@ -15,18 +16,25 @@ gap: 2rem;
 padding-bottom: 2rem;
 
 @media only screen and (max-width: 1023px) {
-    margin-top: -55rem;      
+    margin-top: -54rem;      
     
 }
 @media only screen and (max-width: 863px) {
-    margin-top: -60rem; 
+    margin-top: -57rem; 
     width     : 70%;
-    
+    background: linear-gradient(170.1deg, rgba(173, 206, 214, 1) 1.17%, rgba(199, 199, 199, 1) 90.49%);
+
+   
+ 
 }
 @media only screen and (max-width: 767px) {
-    margin-top: -75.6rem; 
+    margin-top: -71rem; 
     width     : 100%;
     align-self: center;
+    
+}
+@media only screen and (max-width: 454px) {
+    margin-top: -73.5rem; 
     
 }
 
@@ -77,12 +85,13 @@ padding-bottom: 2rem;
         
     }
     .box{
-        border: 1px solid #C7C7C7;
-        background:#C7C7C7;
+        border: 2px solid #C7C7C7;
+        background:#EBEBEB;
         height: 4rem;
         display:flex ;
         align-items: center;
         padding-left:1rem ;
+       
 
         p{
             font-family: var(--font-inter), sans-serif;
@@ -217,8 +226,142 @@ padding-bottom: 2rem;
         }
     }
 }
+.header {
+
+&__ux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.3rem 0;
+
+ 
+
+    @media only screen and (max-width: 700px) {
+        padding: 2rem 0;
+    
+}
+@media only screen and (max-width: 864px) {
+        /* margin-top: 13rem; */
+    
+}
+@media only screen and (max-width: 425px) {
+        /* margin-top: -7rem; */
+        display: none;
+    
+}
+
+    &__head{
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 73px;
+    margin-bottom: .2rem;
+    @media only screen and (max-width: 900px) {
+        font-size: 40px; 
+}
+@media only screen and (max-width: 700px) {
+    font-size: 35px; 
+}
+@media only screen and (max-width: 700px) {
+    font-size: 20px; 
+
+}
+
+   }
+   &__txt{
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align:center;
+
+    @media only screen and (max-width: 900px) {
+        font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    margin-top:-1rem;
+    width: 80%;
+}
+}
+.margin-top{
+    margin-top: 4rem;
+}
+
+.container{
+    display: flex;
+    padding: 0 2rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media only screen and (max-width: 425px) {
+        /* margin-top: -7rem; */
+        display: none;
+    
+}
+
+}
+.box{
+    margin-top: 1.3rem;
+    padding: 1rem;
+    width: 19rem;
+    height: 16rem;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+   
+    @media only screen and (max-width: 1016px) {
+        width: 21rem;
+        height: 17rem;
+    }
+    @media only screen and (max-width: 762px) {
+        width: 19rem;
+        height: 16rem;
+    }
+    @media only screen and (max-width: 425px) {
+        /* margin-top: -7rem; */
+        display: none;
+    
+}
+  
+}
+.title{
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: -0.23999999463558197px;
+    color: #111111;
+
+}
+.txt{
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    color:#666666;
+
+}
+.links{
+    padding-top: 3rem;
+    font-family: var(--font-nunito-Sans), sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    transition: all .3s;
+    
+&:hover{
+    transform: scale(1.1) ;
+    color:#666666;
+
+}
 
 
+}
+
+}
+}
 
 `
 
