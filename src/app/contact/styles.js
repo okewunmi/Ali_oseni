@@ -7,7 +7,8 @@ display: flex;
 background: #fff;
 color: #000;
 max-height: 80vh;
-justify-content: space-between;  
+justify-content: space-between;
+  
 &__work{
     background: #EBF4F6;
     padding: 5rem;

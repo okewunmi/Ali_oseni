@@ -44,7 +44,8 @@ gap: 2rem;
     @media only screen and (max-width: 1098px) { width: 60%;}
     @media only screen and (max-width: 868px) {width: 90%; 
         margin-top:10rem;  }
-    @media only screen and (max-width: 500px) { width: 95%;}
+    @media only screen and (max-width: 500px) { width: 95%;
+        margin-top:10rem; }
 
    
     h1{
@@ -127,6 +128,7 @@ gap: 2rem;
     margin-left: .2rem;
     /* padding-bottom:2rem; */
         /* padding: 0 8rem; */
+        margin-bottom:4rem;
             
 }
 }
@@ -177,8 +179,12 @@ gap: 2rem;
 @media only screen and (max-width: 680px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 8rem;
+        /* margin-top: 10rem; */
         padding: 4rem 1.5rem 5rem 1.5rem;
+}
+@media only screen and (max-width: 540px) {
+    
+     
 }
 @media only screen and (max-width: 480px) {
         flex-direction: column;
@@ -545,11 +551,11 @@ gap: 2rem;
     
 }
 @media only screen and (max-width: 864px) {
-        margin-top: 13rem;
+        /* margin-top: 13rem; */
     
 }
 @media only screen and (max-width: 864px) {
-        margin-top: 7rem;
+        /* margin-top: -7rem; */
     
 }
 
@@ -875,10 +881,8 @@ gap: 2rem;
     text-align: center;
     color: #666666;
 
-    @media only screen and (max-width: 1000px) {
-        font-size: 14px;
-        /* margin-top :-.9rem ; */
-}
+   
+
 @media only screen and (max-width: 800px) {
         font-size: 16px;
         /* margin-top :-1rem ; */
