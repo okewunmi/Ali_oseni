@@ -47,7 +47,10 @@ font-family: var(--font-nunito-Sans), sans-serif;
            font-weight: 600;
         } 
     }
-    @media only screen and (max-width: 686px) {
+    @media only screen and (max-width: 786px) {
+       font-size: 90%;
+ }
+ @media only screen and (max-width: 686px) {
         display: none;
  }
 }

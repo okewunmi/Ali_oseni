@@ -19,17 +19,25 @@ width: 100%;
 justify-content: space-between; 
 gap: 2rem;
 
+@media only screen and (max-width: 868px) {
+    margin-top :10rem ;
+        }
 
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
-  padding-top: 10rem;
+  margin-top: 10rem;
    
 }
 @media only screen and (max-width: 580px) {
   flex-direction: column;
   justify-content: center;
-  padding-top: 2rem;
+ margin-top: 4rem;
+   
+}
+@media only screen and (max-width: 460px) {
+  
+ margin-top: 2rem;
    
 }
 
@@ -43,9 +51,10 @@ gap: 2rem;
 
     @media only screen and (max-width: 1098px) { width: 60%;}
     @media only screen and (max-width: 868px) {width: 90%; 
-        margin-top:10rem;  }
+        }
     @media only screen and (max-width: 500px) { width: 95%;
-        margin-top:10rem; }
+        /* margin-top:10rem;  */
+    }
 
    
     h1{
@@ -121,14 +130,20 @@ gap: 2rem;
         width: 70%;
         margin-left: 5rem;
         margin-top: -4rem;
-        padding:2rem 0 0 0;
+        padding:2rem 0 23rem 0;
             
 }
 @media only screen and (max-width: 570px) {
     margin-left: .2rem;
     /* padding-bottom:2rem; */
         /* padding: 0 8rem; */
-        margin-bottom:4rem;
+        padding:2rem 0 3rem 0;
+        
+            
+}
+@media only screen and (max-width: 470px) {
+        padding:2rem 0 1rem 0;
+        
             
 }
 }
@@ -167,7 +182,8 @@ gap: 2rem;
         /* margin-top: 34rem; */
         padding: 4rem 2rem 5rem 2rem;
         gap: 1rem;
-        margin-top: 13rem;
+       
+        /* margin-top: 23rem; */
 }
 
 @media only screen and (max-width: 768px) {
