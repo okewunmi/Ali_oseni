@@ -1,20 +1,19 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-margin-top: 30rem;
+
 
 .header{
 display: flex;
 background: #fff;
 color: #000;
-min-height: 80vh;
 
 
 justify-content: space-between;
   
 &__work{
     background: #EBF4F6;
-    padding: 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     display:flex;
     flex-direction:column;
     align-items:center;

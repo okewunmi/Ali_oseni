@@ -881,8 +881,10 @@ padding-top:6rem;
    display:flex;
    flex-direction:column;
    align-items:center;
+   gap: 1rem;
    @media only screen and (max-width: 800px) {
     padding: 2rem ;
+    
 
 }
 
@@ -925,6 +927,12 @@ padding-top:6rem;
 @media only screen and (max-width: 800px) {
         font-size: 16px;
         /* margin-top :-1rem ; */
+        line-height: 19px;
+        width: 100%;
+}
+@media only screen and (max-width: 500px) {
+        font-size: 14px;
+        margin-top :4rem ;
         line-height: 19px;
         width: 100%;
 }

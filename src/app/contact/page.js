@@ -48,9 +48,9 @@ const Page = () => {
         </NavBar>
         <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
         </aside>
-            <div className='header__work' style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
+            <div className='header__work mt-32' style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
             <h1 className='header__bring__head' style={{  color:darkMode? '#ffff': "#020A13"}}>Want to work with me?</h1>
-                <p className='header__bring__txt' style={{  color:darkMode? '#ffff': "#020A13"}}>Cool! Let’s talk about your project</p>
+                <p className='header__bring__txt ' style={{  color:darkMode? '#ffff': "#020A13"}}>Cool! Let’s talk about your project</p>
                 <form>
                     <div className='form-box'>
                     <label>Your Name</label>
