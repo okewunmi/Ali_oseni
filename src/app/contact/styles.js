@@ -7,7 +7,7 @@ display: flex;
 background: #fff;
 color: #000;
 max-height: 80vh;
-margin-top: 13rem;
+margin-top: 20rem;
 
 justify-content: space-between;
   
