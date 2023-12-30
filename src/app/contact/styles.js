@@ -6,8 +6,8 @@ export const Content = styled.div`
 display: flex;
 background: #fff;
 color: #000;
-max-height: 80vh;
-margin-top: 20rem;
+/* max-height: 80vh; */
+/* margin-top: 20rem; */
 
 justify-content: space-between;
   
