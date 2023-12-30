@@ -7,6 +7,8 @@ display: flex;
 background: #fff;
 color: #000;
 max-height: 80vh;
+margin-top: 13rem;
+
 justify-content: space-between;
   
 &__work{

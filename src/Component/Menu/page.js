@@ -12,6 +12,7 @@ const Sidebar = ({ isOpen, onClose }) => {
         Close
       </button> */}
       <div className='NavBar__link' >
+        <Link className='links' href="/">Home</Link>
                 <Link className='links' href="/contact">Contact Me</Link>
                 <Link className='links' href="/project">Projects</Link>
                 <Link className='links' href="/process">Process</Link>
