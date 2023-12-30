@@ -50,7 +50,7 @@ padding-top:6rem;
 }
 @media only screen and (max-width: 425px) {
   
- margin-top: 1.5remrem;
+ margin-top: 1.5rem;
    
 }
 @media only screen and (max-width: 320px) {
