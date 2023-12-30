@@ -25,6 +25,7 @@ const Index = () => {
                 </div>
                 <div className='footer__link'>
                     <h3 className='footer__link-head'>Dope UX</h3>
+                    <Link href='/' >Project</Link>
                     <Link href='/project' >Project</Link>
                     <Link href='/process' >Process</Link>
                     <Link href='/about' >About Us</Link>

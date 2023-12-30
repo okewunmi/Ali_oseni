@@ -65,7 +65,7 @@ const Index = () => {
                 <Image src='/photo.png' alt='photos' width={420} height={420} className='photo__1'/>
             </div>
             </div>
-            <div className='header__ux  'style={{background:darkMode? "#020D1A":"#EBF4F6", color:darkMode? '#ffff': "#020A13"}}>
+            <div className='header__ux 'style={{background:darkMode? "#020D1A":"#EBF4F6", color:darkMode? '#ffff': "#020A13"}}>
             <h1 className='header__ux__head '>Latest Project </h1>
                 <p className='header__ux__txt'>And if it’s not listed here, I learn incredibly quickly</p>
                 <div className='container  '>

@@ -166,7 +166,7 @@ padding-top:6rem;
             
 }
 @media only screen and (max-width: 425px) {
-        padding:1.4rem 0 0rem 0;         
+        padding:1.5rem 0 0rem 0;         
 }
 }
 
