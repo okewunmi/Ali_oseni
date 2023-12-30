@@ -12,7 +12,7 @@ import { Content } from '@/Component/Footer/styles';
 import Image from 'next/image';
 import { Fade } from 'react-swift-reveal';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-
+import Slider from '../../Component/Menu/page'
 
 const Page = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -21,13 +21,17 @@ const Page = () => {
     setDarkMode((prev) => !prev);
   };
 
-  const toggleMenu=()=>{
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
 
-  }
+   const toggleMenu =()=>{
+    setSidebarOpen(!isSidebarOpen);
+
+   }
     return (
         <Fade duration={500} distance='30px' delay={500} >
         <Wrapper style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
-            <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
+        <aside>
+         <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
                 <Link className='links' href="/project">Projects</Link>
@@ -39,10 +43,11 @@ const Page = () => {
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
                 <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
-                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>
         </NavBar>
+        <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
+        </aside>
             <div className='header__work mt-10' style={{background:darkMode? "#031529":"#EBF4F6",  color:darkMode? '#ffff': "#020A13"}}>
             <h1 className='header__bring__head' style={{  color:darkMode? '#ffff': "#020A13"}}>Want to work with me?</h1>
                 <p className='header__bring__txt' style={{  color:darkMode? '#ffff': "#020A13"}}>Cool! Let’s talk about your project</p>

@@ -2,38 +2,21 @@ import React from 'react';
 import { Wrapper } from './styles';
 
 import Link from 'next/link';
-
+// import { useTheme } from '../../app/ThemeContext';
 const Sidebar = ({ isOpen, onClose }) => {
+  // const {darkMode} = useTheme();
   return (
-    <Wrapper>
-    <div className={`sidebar ${isOpen ? 'open' : ''}`}>
-      <button className="close-btn" onClick={onClose}>
+    <Wrapper >
+    <div className={`sidebar ${isOpen ? 'show' : 'hide'}`}>
+      {/* <button className="close-btn" onClick={onClose}>
         Close
-      </button>
-      <nav>
-        <ul>
-          <li>
-            <Link href="/">
-            
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">
-            
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-
-            </Link>
-          </li>
-          <li>
-            <Link href="/process">
-            
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      </button> */}
+      <div className='NavBar__link' >
+                <Link className='links' href="/contact">Contact Me</Link>
+                <Link className='links' href="/project">Projects</Link>
+                <Link className='links' href="/process">Process</Link>
+                <Link className='links' href="/about">About Me</Link> 
+            </div>
     </div>
     </Wrapper>
   );

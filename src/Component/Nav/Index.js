@@ -16,7 +16,7 @@ const Index = () => {
 
    }
     return (
-         <>
+         <aside>
          <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
@@ -33,7 +33,7 @@ const Index = () => {
             </div>
         </NavBar>
         <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
-        </>
+        </aside>
         
     );
 }

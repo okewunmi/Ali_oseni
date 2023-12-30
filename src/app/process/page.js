@@ -10,7 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { ThemeProvider, useTheme } from '../ThemeContext';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-
+import Slider from '../../Component/Menu/page'
 // import Nav from '../../Component/Nav/Index';
 import { Fade } from 'react-swift-reveal';
 const Index = () => {
@@ -21,14 +21,18 @@ const Index = () => {
     setDarkMode((prev) => !prev);
   };
 
-  const toggleMenu=()=>{
-    
-  }
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+   const toggleMenu =()=>{
+    setSidebarOpen(!isSidebarOpen);
+
+   }
 
     return (
       <Fade duration={500} distance='30px' delay={500} >
         <Wrapper >
-        <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
+        <aside>
+         <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
                 <Link className='links' href="/project">Projects</Link>
@@ -40,10 +44,11 @@ const Index = () => {
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
                 <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
-                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>
         </NavBar>
+        <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
+        </aside>
         
         <section className={`timeline ${darkMode? "dark": 'white'}`} >
         {/* <section className="timeline"  > */}

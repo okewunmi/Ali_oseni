@@ -409,7 +409,7 @@ padding-top:6rem;
     &--container{
         padding: 1.1rem;
         max-width: 22rem;
-        height: 18rem;
+        min-height: 18rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;

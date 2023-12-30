@@ -9,7 +9,7 @@ import {Bounce, Fade} from 'react-swift-reveal'
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { Content } from '@/Component/Footer/styles';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
-
+import Slider from '../../Component/Menu/page'
 
 const Index = () => {
     const [darkMode, setDarkMode] = useState(false);
@@ -17,14 +17,19 @@ const Index = () => {
   const toggleDarkMode=() => {
     setDarkMode((prev) => !prev);
   };
-    const toggleMenu=()=>{
-        
-    }
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleMenu =()=>{
+   setSidebarOpen(!isSidebarOpen);
+
+  }
+
   return (
   <Fade duration={500} distance='30px' delay={500} >
 
     <Wrapper style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#ffff': "#020A13"}} >
-    <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
+    <aside>
+         <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
                 <Link className='links' href="/project">Projects</Link>
@@ -36,10 +41,12 @@ const Index = () => {
                 <Link className='NavBar__btn--btn' href="#">Download Resume</Link>
                 <buton className='btn' onClick={toggleDarkMode}> <WiMoonAltFirstQuarter/> </buton>
                 <buton className='btn btn-menu' onClick={toggleMenu}>  <HiOutlineMenuAlt4 className='menu'/> </buton>
-                {/* <buton className='btn' > <WiMoonAltFirstQuarter/> </buton> */}
                 </div>
             </div>
         </NavBar>
+        <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
+        </aside>
+        
       <div className='header' style={{background:darkMode? "#020A13":"#ffff", color:darkMode? '#EBF4F6': "#020A13"}} >
             <div className='header__txt' >
                 <div className='header__txt__box'  >
@@ -199,6 +206,7 @@ const Index = () => {
                 </div>
                 <div className='footer__link'>
                     <h3 className='footer__link-head'>Dope UX</h3>
+                    <Link href='/' >Home</Link>
                     <Link href='/project' >Project</Link>
                     <Link href='/process' >Process</Link>
                     <Link href='/about' >About Us</Link>

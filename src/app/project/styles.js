@@ -78,13 +78,14 @@ padding-top:6rem;
    
     h1{
         font-size: 50px;
+        font-weight :800 ;
         font-family: var(--font-nunito-Sans), sans-serif; 
         
         @media only screen and (max-width: 1098px) {font-size: 2.5rem;}
-        @media only screen and (max-width: 650px) {font-size: 1.9rem;}
-        @media only screen and (max-width: 500px) {font-size: 1.6rem;}
-        @media only screen and (max-width: 400px) {font-size: 1.4rem;}
-        @media only screen and (max-width: 325px) {font-size: 1.2rem;}
+        @media only screen and (max-width: 650px) {font-size: 2rem;}
+        @media only screen and (max-width: 500px) {font-size: 1.9rem;}
+        @media only screen and (max-width: 400px) {font-size: 1.7rem;}
+        @media only screen and (max-width: 325px) {font-size: 1.7rem;}
 
     }
 
@@ -584,18 +585,28 @@ padding-top:6rem;
     padding: 2.3rem 0;
     margin-top: 11rem;
 
- 
-
-    @media only screen and (max-width: 700px) {
-        padding: 2rem 0;
-    
-}
+  
 @media only screen and (max-width: 864px) {
-        /* margin-top: 13rem; */
+        margin-top: 13rem;
     
 }
 @media only screen and (max-width: 864px) {
         /* margin-top: -7rem; */
+    
+}
+@media only screen and (max-width: 768px) {
+        padding: 2rem 0;
+        margin-top: 19rem;
+    
+}
+@media only screen and (max-width: 600px) {
+        padding: 2rem 0;
+        margin-top: 15rem;
+    
+}
+@media only screen and (max-width: 425px) {
+        padding: 2rem 0;
+        margin-top: 12rem;
     
 }
 
