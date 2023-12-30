@@ -12,6 +12,7 @@ align-items: center;
 padding-left: 278px; 
 padding-right: 40px;
 font-size: 16px;
+position: fixed;
 font-family: var(--font-nunito-Sans), sans-serif;  
 
    @media only screen and (max-width: 1098px) {

@@ -14,50 +14,33 @@ flex-direction: column;
 display: flex;
 background: #fff;
 color: #000;
-max-height: 100vh;
+max-height: 80vh;
 width: 100%;
 justify-content: space-between; 
 gap: 2rem;
-padding-top:6rem;
 
-/* @media only screen and (max-width: 868px) {
+
+@media only screen and (max-width: 868px) {
     margin-top :10rem ;
-        } */
+        }
 
 @media only screen and (max-width: 868px) {
   flex-direction: column;
   justify-content: center;
-  margin-top: 15rem;
-   
-}
-@media only screen and (max-width: 768px) {
-  flex-direction: column;
-  justify-content: center;
- margin-top: 15rem;
-   
-}
-@media only screen and (max-width: 600px) {
-  flex-direction: column;
-  justify-content: center;
- margin-top: 15rem;
+  margin-top: 10rem;
    
 }
 @media only screen and (max-width: 580px) {
   flex-direction: column;
   justify-content: center;
- margin-top: 15rem;
+ margin-top: 3rem;
    
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 470px) {
   
- margin-top: 10rem;
+ margin-top: 1rem;
    
 }
-@media only screen and (max-width: 320px) {
-  
-  margin-top: 8rem;
-    
- }
 
 .header__txt {
     display: flex;
@@ -69,7 +52,7 @@ padding-top:6rem;
 
     @media only screen and (max-width: 1098px) { width: 60%;}
     @media only screen and (max-width: 868px) {width: 90%;
-        /* margin-top :27rem ; */
+        margin-top :34rem ;
         }
     @media only screen and (max-width: 500px) { width: 95%;
         /* margin-top:10rem;  */
@@ -114,7 +97,8 @@ padding-top:6rem;
         margin-top:-3rem;
         @media only screen and (max-width: 1098px) {font-size: 180px;}
         @media only screen and (max-width: 800px) {
-            font-size: 150px;}
+            font-size: 150px;
+            padding: 3rem 0;}
         @media only screen and (max-width: 700px) {
             font-size: 140px;}
             @media only screen and (max-width: 600px) {
@@ -132,8 +116,8 @@ padding-top:6rem;
         gap:1rem;
         flex-direction: column;
        
-        @media only screen and (max-width: 1098px) {padding-left: 2.1rem;}
-        @media only screen and (max-width: 868px) {padding-left: 3rem;}
+        @media only screen and (max-width: 1098px) {padding-left: 2rem;}
+        @media only screen and (max-width: 868px) {padding-left: 1.2rem;}
         @media only screen and (max-width: 500px) {padding-left: 1.7rem;}
     }
  
@@ -151,22 +135,21 @@ padding-top:6rem;
         width: 70%;
         margin-left: 5rem;
         margin-top: -4rem;
-        padding:1rem 0 0rem 0;
+        padding:2rem 0 20rem 0;
             
 }
 @media only screen and (max-width: 570px) {
     margin-left: .2rem;
-    padding:1rem 0 0rem 0;
+    /* padding-bottom:2rem; */
+        /* padding: 0 8rem; */
+        padding:2rem 0 12rem 0;
         
             
 }
 @media only screen and (max-width: 470px) {
-        padding:1rem 0 0rem 0;
+        padding:2rem 0 14rem 0;
         
             
-}
-@media only screen and (max-width: 425px) {
-        padding:1.4rem 0 0rem 0;         
 }
 }
 
@@ -225,10 +208,10 @@ padding-top:6rem;
     
     margin-top: 13rem;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 470px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 12rem;
+        margin-top: 10rem;
         padding: 4rem 1.5rem 5rem 1.5rem;
 }
 

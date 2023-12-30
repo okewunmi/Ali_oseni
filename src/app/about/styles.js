@@ -47,23 +47,24 @@ color: black;
  padding: 7rem 8rem;
  /* text-align: justify; */
  @media only screen and (max-width: 1098px) {
-  padding: 2rem 5rem;
+  padding: 10rem 5rem;
          
 }
 @media only screen and (max-width: 900px) {
-  padding: 2rem 3.5rem;
+  padding: auto 3.5rem 5rem 3.5rem;
          
 }
-@media only screen and (max-width: 800px) {
-  padding: 2rem 3rem;
+@media only screen and (max-width: 768px) {
+  padding: auto 3rem 5rem 3rem;
          
 }
 @media only screen and (max-width: 600px) {
-  padding: 2rem 2.5rem;
+  padding: auto 2.5rem 5rem 2.5rem;
          
 }
 @media only screen and (max-width: 500px) {
-  padding: 2rem 1.5rem;
+  padding: 10rem 1.5rem 5rem 1.5rem;
+
          
 }
  h3{

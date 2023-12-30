@@ -1,18 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 import { NavBar } from './styles';
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { LuSunMoon } from "react-icons/lu";
 import { useTheme } from '../../app/ThemeContext';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
+import Slider from '../Menu/page'
+
 const Index = () => {
      const {toggleDarkMode, darkMode} = useTheme();
+     const [isSidebarOpen, setSidebarOpen] = useState(false);
 
    const toggleMenu =()=>{
+    setSidebarOpen(!isSidebarOpen);
 
    }
     return (
-        // <NavBar style={{background:darkMode? "#1C2540":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}}>
+         <>
          <NavBar style={{background:darkMode? "#020A13":"#EBF4F6", color:darkMode? '#ffff': "#171F38"}} >  
             <div className='NavBar__link' >
                 <Link className='links' href="/contact">Contact Me</Link>
@@ -28,6 +32,9 @@ const Index = () => {
                 </div>
             </div>
         </NavBar>
+        <Slider isOpen={isSidebarOpen} onClose={toggleMenu} />
+        </>
+        
     );
 }
 
