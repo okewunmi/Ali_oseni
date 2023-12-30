@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-
+margin-top: 10rem;
 .header{
 display: flex;
 background: #fff;
 color: #000;
 min-height: 80vh;
-margin-top: 10rem;
+
 
 justify-content: space-between;
   
