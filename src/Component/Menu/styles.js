@@ -54,8 +54,8 @@ border-radius: 1rem;
         /* padding: 2rem; */
 
         .links{
-                font-size: .9rem;
-                font-weight: 400;
+                font-size: 1rem;
+                font-weight: 500;
         }
 }
 `

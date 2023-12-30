@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
-margin-top: 10rem;
+margin-top: 20rem;
+
 .header{
 display: flex;
 background: #fff;
