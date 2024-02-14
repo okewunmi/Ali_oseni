@@ -5,11 +5,7 @@ import { Content } from "../Kita/styles";
 import Nav from "../../../Component/Nav/Index";
 import Link from "next/link";
 import Image from "next/image";
-import { Fade } from "react-swift-reveal";
-import { WiMoonAltFirstQuarter } from "react-icons/wi";
-import { NavBar } from "@/Component/Nav/styles";
-import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { MdArrowBackIos } from "react-icons/md";
+import { Fade } from "react-swift-reveal";import { MdArrowBackIos } from "react-icons/md";
 import { useTheme } from "@/app/ThemeContext";
 
 const Index = () => {
