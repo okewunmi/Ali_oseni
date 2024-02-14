@@ -23,7 +23,7 @@ const Index = () => {
 
   return (
     <Fade duration={500} distance="30px" delay={500}>
-      <Link href="/project">
+      
         <Wrapper
           style={{
             background: isDarkMode ? "#020D1A" : "#ffff",
@@ -31,6 +31,7 @@ const Index = () => {
           }}
         >
           <Nav />
+          <Link href="/project">
           <div
             className="header__ux my-16"
             style={{
@@ -80,6 +81,7 @@ const Index = () => {
               </div>
             </div>
           </div>
+          </Link>
           <Content>
             <div className="head">
               <div>
@@ -140,7 +142,7 @@ const Index = () => {
                 </section> */}
           </Content>
         </Wrapper>
-      </Link>
+     
     </Fade>
   );
 };
