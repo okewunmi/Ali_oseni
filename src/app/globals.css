@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* styles.css */
 .light-mode {
   background-color: #ffffff;
@@ -11,14 +9,14 @@
 }
 
 .dark-mode {
-  background-color: #020A13;
+  background-color: #020a13;
   color: #ffffff;
 }
 
-
 body {
   padding: 0;
-  margin: 0;  
+  margin: 0;
   box-sizing: border-box;
-  font-family: var(--font-nunito-Sans), var(--font-abril-Fatface), var(--font-inter), sans-serif;
+  font-family: var(--font-nunito-Sans), var(--font-abril-Fatface),
+    var(--font-inter), sans-serif;
 }

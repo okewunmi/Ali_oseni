@@ -1,7 +1,16 @@
 import styled from "styled-components";
+
 export const Content = styled.div`
 
+.dark{
+
+}
+.light{
+
+}
+
 background:#1C2540;
+
 
 display:flex;
 flex-direction:column;
@@ -9,10 +18,10 @@ align-items:center;
 
 
 .footer{
-    padding: 4rem 12rem 2rem 12rem;
+    padding: 4rem 10rem 2rem 10rem;
     display:flex;
     justify-content:center;
-    gap:6rem;
+    gap:7rem;
 
     @media only screen and (max-width: 1100px) {
         padding: 4rem 1rem 2rem 1rem;
@@ -47,12 +56,8 @@ align-items:center;
                 font-size: 16px;
                 font-weight: 600;
                 line-height: 21px;
-                color: #FFFFFFB2;
-
-               
-            
+                color: #FFFFFFB2;          
             }
-
 
             input{
             background:#F9FAFB;
@@ -77,10 +82,10 @@ align-items:center;
                 @media only screen and (max-width: 1000px) {
                 width:18rem;
                 padding:.4rem .6rem;
-            }
-            }
+            }}
         }
     }
+
     &__txt{
         font-family: var(--font-nunito-Sans), sans-serif;
         font-size: 16px;
@@ -107,8 +112,6 @@ align-items:center;
             color:#893168;
         }
         }
-
-        
 
     }
 
@@ -154,8 +157,6 @@ align-items:center;
         span{
             font-weight: 600;
         }
-
-
     }
     &__copyRight{
         padding:2rem 0;
@@ -170,8 +171,6 @@ align-items:center;
             font-weight: 200;
             margin-top: -2rem;
             }
-
-
     }
     &__white{
         background:#FFFFFF;
