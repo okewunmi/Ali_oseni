@@ -12,8 +12,6 @@ const nextConfig = {}
 module.exports = {
   // Prevents reloading of the page when navigating between pages
   useFileSystemPublicRoutes: false,
-  prefetch:false,
-  fastRefresh:false,
 };
 // module.exports = {
 //   target: 'serverless',
