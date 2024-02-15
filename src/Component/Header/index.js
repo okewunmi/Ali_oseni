@@ -9,6 +9,8 @@ import { ThemeContext, useTheme } from "../../app/ThemeContext";
 
 const Index = () => {
   const { isDarkMode } = useTheme();
+  const sign1 = '/signature.png'
+  const sign2 = '/signature-2.png'
   // const imagePath = themeMode ===  'isDarkMode' ? '/public/signature-2.png' : '/public/signature.png';
   return (
     <Wrapper
@@ -222,7 +224,9 @@ const Index = () => {
             source code management, testing as well as deployment.
           </p>
           <Image
-            src="/signature.png"
+                src={isDarkMode ? sign2 : sign1}
+
+            // src="/signature.png"
             className="img__sign"
             width={100}
             height={41}
