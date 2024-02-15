@@ -9,7 +9,7 @@ import { ThemeContext, useTheme } from "../../app/ThemeContext";
 
 const Index = () => {
   const { isDarkMode } = useTheme();
-
+  // const imagePath = themeMode ===  'isDarkMode' ? '/public/signature-2.png' : '/public/signature.png';
   return (
     <Wrapper
       style={{
@@ -63,7 +63,7 @@ const Index = () => {
 
             <div className="icon">
               <Link className="links" href="#">
-                {" "}
+             
                 <FaTwitter />
               </Link>
               <Link className="links" href="#">
