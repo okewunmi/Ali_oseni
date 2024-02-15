@@ -25,7 +25,7 @@ const Index = () => {
         }}
       >
         <div className="flex">
-          <Link className="links" href="/">
+          <Link className="links" href="/" >
             <Image
               src="/logo-1.png"
               className="logo"
@@ -35,16 +35,16 @@ const Index = () => {
             />
           </Link>
           <div className="NavBar__link">
-            <Link className="links" href="/contact">
+            <Link className="links" href="/contact" prefetch={false}>
               Contact Me
             </Link>
-            <Link className="links" href="/project">
+            <Link className="links" href="/project" prefetch={false}>
               Projects
             </Link>
-            <Link className="links" href="/process">
+            <Link className="links" href="/process" prefetch={false}>
               Process
             </Link>
-            <Link className="links" href="/about">
+            <Link className="links" href="/about" prefetch={false}>
               About Me
             </Link>
           </div>
