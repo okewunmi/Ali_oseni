@@ -34,11 +34,7 @@ const Index = () => {
                 color: isDarkMode ? "#EBF4F6" : "#020A13",
               }}
             >
-              Hello, I’m{" "}
-              <span>
-                {" "}
-                <strike>Oseni Ali Abayomi</strike>{" "}
-              </span>
+              Hello, I’m<span>Oseni Ali Abayomi</span>
             </h1>
             <p
               className="txt"
