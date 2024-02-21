@@ -27,14 +27,16 @@ const nunito_Sans = Nunito_Sans({
 
 export default function RootLayout({ children }) {
   return (
-    <ThemeProvider>
+ 
       <html lang="en">
         <body
           className={`${inter.variable} ${abril_Fatface.variable} ${nunito_Sans.variable}`}
         >
+          <ThemeProvider> 
           {children}
+          </ThemeProvider> 
+
         </body>
       </html>
-    </ThemeProvider>
   );
 }
