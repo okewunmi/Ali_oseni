@@ -15,6 +15,10 @@ const Index = () => {
   const toggleMenu = () => {
     setSidebarOpen(!isSidebarOpen);
   };
+
+  function customLinkOnClick(e) {
+    e.preventDefault();
+  }
   return (
     <aside>
       <NavBar
@@ -35,23 +39,23 @@ const Index = () => {
             />
           </Link>
           <div className="NavBar__link">
-            <Link className="links" href="/contact" prefetch={false}>
+            <Link className="links" href="/contact"  prefetch={false}  onClick={customLinkOnClick}>
               Contact Me
             </Link>
-            <Link className="links" href="/project" prefetch={false}>
+            <Link className="links" href="/project" prefetch={false} onClick={customLinkOnClick}>
               Projects
             </Link>
-            <Link className="links" href="/process" prefetch={false}>
+            <Link className="links" href="/process" prefetch={false} onClick={customLinkOnClick}>
               Process
             </Link>
-            <Link className="links" href="/about" prefetch={false}>
+            <Link className="links" href="/about" prefetch={false} onClick={customLinkOnClick}>
               About Me
             </Link>
           </div>
         </div>
         <div>
           <div className="NavBar__btn">
-            <Link className="NavBar__btn--btn" href="#">
+            <Link className="NavBar__btn--btn" href="#" onClick={customLinkOnClick}>
               Download Resume
             </Link>
             <button className="btn" onClick={toggleTheme}>
