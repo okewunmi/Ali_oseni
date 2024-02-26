@@ -38,7 +38,9 @@ const Index = () => {
             />
           </Link>
           <div className="NavBar__link">
-            <Link className="links" href="/contact"  prefetch={false}  onMouseEnter={() => router.prefetch("/contact")} >
+            <Link className="links" href="/contact"  
+            prefetch={false}  
+            onMouseEnter={() => router.prefetch("/contact")} >
               Contact Me
             </Link>
             <Link className="links" href="/project" prefetch={false} >
