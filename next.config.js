@@ -7,16 +7,11 @@ const withFonts = require('next-fonts');
 module.exports = withFonts({
   // Your other Next.js config options here
 });
+// next.config.js
+
 module.exports = {
-  reactStrictMode: true,
+  // Disable prefetching for all Link components
   experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
+    prefetch: false,
   },
-  webpack(config) {
-    if (!config.optimization.prefetch) {
-      config.optimization.prefetch = void 0;
-    }
-    return config; 
-  }
 };
