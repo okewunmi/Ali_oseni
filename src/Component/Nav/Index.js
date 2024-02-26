@@ -39,23 +39,23 @@ const Index = () => {
             />
           </Link>
           <div className="NavBar__link">
-            <Link className="links" href="/contact"  prefetch={false}  onClick={customLinkOnClick}>
+            <Link className="links" href="/contact"  prefetch={false}  >
               Contact Me
             </Link>
-            <Link className="links" href="/project" prefetch={false} onClick={customLinkOnClick}>
+            <Link className="links" href="/project" prefetch={false} >
               Projects
             </Link>
-            <Link className="links" href="/process" prefetch={false} onClick={customLinkOnClick}>
+            <Link className="links" href="/process" prefetch={false} >
               Process
             </Link>
-            <Link className="links" href="/about" prefetch={false} onClick={customLinkOnClick}>
+            <Link className="links" href="/about" prefetch={false} >
               About Me
             </Link>
           </div>
         </div>
         <div>
           <div className="NavBar__btn">
-            <Link className="NavBar__btn--btn" href="#" onClick={customLinkOnClick}>
+            <Link className="NavBar__btn--btn" href="#" >
               Download Resume
             </Link>
             <button className="btn" onClick={toggleTheme}>
