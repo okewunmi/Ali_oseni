@@ -11,9 +11,7 @@ module.exports = withFonts({
 
 module.exports = {
   // Disable prefetching in production
-  onDemandEntries: {
-    // Set to 'fallback' to disable prefetching but still allow incremental static regeneration (ISR)
-    pages: 'fallback',
-  },
+  onDemandEntries: false,
 };
+
 
