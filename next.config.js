@@ -1,12 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental
-: {
+//   experimental
+// : {
     
-disableOptimizedLoading
-: 
-true
-,
+// disableOptimizedLoading
+// : 
+// true
+// ,
+//   },
+reactStrictMode: true,
+  experimental: {
+    optimizeCss: true,
+    scrollRestoration: true,
   },
 }
 
