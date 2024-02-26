@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { NavBar } from "./styles";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { LuSunMoon } from "react-icons/lu";
@@ -16,9 +17,7 @@ const Index = () => {
     setSidebarOpen(!isSidebarOpen);
   };
 
-  function customLinkOnClick(e) {
-    e.preventDefault();
-  }
+  const router = useRouter();
   return (
     <aside>
       <NavBar
@@ -30,7 +29,6 @@ const Index = () => {
       >
         <div className="flex">
           <Link className="links" href="/" >
-            <a>
             <Image
               src="/logo-1.png"
               className="logo"
@@ -38,20 +36,19 @@ const Index = () => {
               width={70}
               height={70}
             />
-            </a>
           </Link>
           <div className="NavBar__link">
-            <Link className="links" href="/contact"  prefetch={false}  >
-             <a>Contact Me</a> 
+            <Link className="links" href="/contact"  prefetch={false}  onMouseEnter={() => router.prefetch("/contact")} >
+              Contact Me
             </Link>
             <Link className="links" href="/project" prefetch={false} >
-              <a>Projects</a>
+              Projects
             </Link>
             <Link className="links" href="/process" prefetch={false} >
-             <a> Process</a>
+              Process
             </Link>
             <Link className="links" href="/about" prefetch={false} >
-            <a>About Me</a>
+              About Me
             </Link>
           </div>
         </div>

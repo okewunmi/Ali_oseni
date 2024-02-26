@@ -1,19 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-//   experimental
-// : {
-    
-// disableOptimizedLoading
-// : 
-// true
-// ,
-//   },
-reactStrictMode: true,
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
-}
+const nextConfig = {}
 
 
 
