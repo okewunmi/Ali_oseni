@@ -49,28 +49,36 @@
 //   );
 // };
 
+
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const ThemeContext = createContext({
   isDarkMode: false,
   toggleTheme: () => {},
 });
+
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  const [isDarkMode, setDarkMode] = useState(() => {
-    // Get the mode from local storage if available, otherwise default to false (light mode)
-    const savedMode = localStorage.getItem("isDarkMode");
-    return savedMode ? JSON.parse(savedMode) : false;
-  });
+  const [isDarkMode, setIsDarkMode] = useState(
+    () => {
+      // Access localStorage within a function to ensure it's available
+      if (typeof window !== 'undefined' && localStorage) {
+        return localStorage.getItem("theme") === "dark";
+      } else {
+        return false; // Default to false if localStorage is unavailable
+      }
+    }
+  );
 
   useEffect(() => {
-    // Save the mode to local storage whenever it changes
-    localStorage.setItem("isDarkMode", JSON.stringify(isDarkMode));
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+    }
   }, [isDarkMode]);
 
   const toggleTheme = () => {
-    setDarkMode((prev) => !prev);
+    setIsDarkMode((prev) => !prev);
   };
 
   return (
@@ -79,3 +87,4 @@ export const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
+
